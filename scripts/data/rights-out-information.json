@@ -1,0 +1,89 @@
+{
+    "rights_out_reference_number": {
+        "definition": "A unique number identifying the grant of a licence to use the organisation\u2019s rights.",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number.",
+        "examples": [
+            "RO1993.123"
+        ],
+        "use": "Record once only for a licence."
+    },
+    "rights_out_type": {
+        "definition": "The specific type of right being granted in the licence by the organisation.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "copyright",
+            "publication right"
+        ],
+        "use": "Record as many times as required for a licence."
+    },
+    "rights_out_requester": {
+        "definition": "The Person or Organisation requesting a licence to use rights held by the organisation.",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, a surname and a forename. The descriptions for these information units are gathered together under the Person or Organisation heading as appropriate. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person or Organisation."
+        ],
+        "use": "Record as many times as required for a licence."
+    },
+    "rights_out_consent_status": {
+        "definition": "The status of the process of applying for a licence to use the organisations rights.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "applied for",
+            "granted",
+            "refused"
+        ],
+        "use": "Record once only for a request for a licence.",
+        "rights_out_consent_status_date": {
+            "definition": "The date on which a Rights out consent status was recorded.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate a component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "08/10/1993",
+                "2017-12-17"
+            ],
+            "use": "Record once only for a Rights out consent status."
+        }
+    },
+    "rights_out_authoriser": {
+        "definition": "The Person giving final approval for a licence to use the organisation\u2019s rights.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Record once only for a grant of a licence.",
+        "rights_out_authorisation_date": {
+            "definition": "The first date on which a licence to use the organisation\u2019s rights is current.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "08/10/1993",
+                "2017-12-17"
+            ],
+            "use": "Record once only for a grant of a licence."
+        }
+    },
+    "rights_out_begin_date": {
+        "definition": "The first date on which a rights out licence is current.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+        "examples": [
+            "08/10/1993",
+            "2017-12-17"
+        ],
+        "use": "Record once only for a licence."
+    },
+    "rights_out_end_date": {
+        "definition": "The last date on which a licence to use the organisation\u2019s rights is current.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+        "examples": [
+            "08/10/1993",
+            "2017-12-17"
+        ],
+        "use": "Record once only for a licence."
+    },
+    "rights_out_note": {
+        "definition": "Any details of the licence to use the organisation\u2019s rights, not recorded elsewhere.",
+        "how_to_record": "Use normal spelling and punctuation. Record: Contact details of any other Person or Organisation who holds the rights being granted; Copyright status of the original work, where the organisation is granting a licence for the use of the rights of a copy of it; Sub-licences to third parties; Warranty/indemnity clauses; Comments on, for example, past history; Any restrictions (eg if any modifications are permitted).",
+        "examples": [
+            "Any publication must be accompanied with the standard credit line."
+        ],
+        "use": "Record once only for a licence."
+    }
+}

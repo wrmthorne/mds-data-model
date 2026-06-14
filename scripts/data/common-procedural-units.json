@@ -1,0 +1,178 @@
+{
+    "authoriser": {
+        "definition": "\nThe Person giving final approval for a procedure to take place.\n",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Use in association with information group headings to record the name of the person who gave authorisation for a procedure, eg [Loan out] Authoriser. Use with Authorisation date to record when the authorisation was given. Note separate units for Acquisition authoriser and Amendment history authoriser.",
+        "authorisation_date": {
+            "definition": "\nThe date on which an authoriser gives final approval for a procedure to take place.\n",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "03/10/1996",
+                "2017-12-17"
+            ],
+            "use": "Use in association with Information group headings to record the date authorisation was given for a procedure, eg [Loan out] Authorisation date. Use Authorisation date for each occurrence of Authoriser."
+        }
+    },
+    "cost": {
+        "definition": "\nThe amount paid in the course of a procedure.\n",
+        "how_to_record": "Use local currency. Convert any non-local currency into local, using the exchange rate at date of acquisition. Use Cost note to record details of non-local currency paid.",
+        "examples": [
+            "750.00"
+        ],
+        "use": "Use in association with Information group headings to record the cost of a procedure, eg [Conservation] Cost. Record once only for a procedure carried out as required.",
+        "cost_note": {
+            "definition": "\nAdditional information about the cost of a procedure.\n",
+            "how_to_record": "Use normal grammar and punctuation. Include any non-local currency amount as well as details of the basis for the assigning of a particular cost.",
+            "examples": [
+                "[Conservation] Cost note \u2013 The conservator estimates that the restoration will cost \u00a3450 due to high price of materials involved."
+            ],
+            "use": "Use in association with Information group headings to record the cost of a procedure, eg [Conservation] Cost. Record once only for a procedure carried out as required. Do not use for costs incurred in the transfer of title of objects."
+        }
+    },
+    "procedure_begin_date": {
+        "definition": "\nThe date on which a procedure is begun.\n",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+        "examples": [
+            "08/10/1993",
+            "2017-12-17"
+        ],
+        "use": "Use in association with Information group headings to record the date a procedure began, eg [Loan out] begin date. Record once only for each occurrence of a procedure. Note that this unit applies to procedures which begin and end in less than a day as well as those which take a longer period of time."
+    },
+    "procedure_end_date": {
+        "definition": "\nThe date on which a procedure ended.\n",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+        "examples": [
+            "08/10/1993",
+            "2017-12-17"
+        ],
+        "use": "Use in association with Information group headings to record the end date of a procedure, eg [Loan out] end date. Record once only for each occurrence of a procedure. Record to describe a procedure covering more than one object. Note that this unit applies to procedures which begin and end in less than a day as well as those which take a longer period of time."
+    },
+    "procedure_manager": {
+        "definition": "\nThe Person or Organisation responsible for carrying out a procedure.\n",
+        "how_to_record": "It will be necessary to use several unit of information including, for example, a surname, a forename and an address. The descriptions for these information units are gathered together under the Person or Organisation headings as appropriate.",
+        "examples": [
+            "See under Person or Organisation as appropriate."
+        ],
+        "use": "Record once only for a Procedure title. Record to describe a procedure covering more than one object."
+    },
+    "procedure_note": {
+        "definition": "\nAdditional information about procedure which has not been recorded elsewhere using controlled terminology.\n",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "The audit was carried out in two stages, beginning in Room A, and prioritising all works pre 1850."
+        ],
+        "use": "Record once only for a Procedure title. Record to describe a procedure covering more than one object."
+    },
+    "procedure_title": {
+        "definition": "\nThe name assigned to a procedure or project carried.\n",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Audit of main store 1996"
+        ],
+        "use": "Record once for a procedure carried out."
+    },
+    "reason": {
+        "definition": "\nThe reason for the procedure taking place.\n",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "conservation",
+            "sold",
+            "transferred",
+            "display",
+            "research",
+            "loan out"
+        ],
+        "use": "As many times as required for a procedure. Use in association with information group headings to record the reason for a procedure taking place. eg [Loan out] Reason. As many times as required for each occurrence of a procedure for an object or group of objects. Note that there are separate units of information for Acquisition reason, Entry reason, Disposal reason, Object production reason."
+    },
+    "request": {
+        "definition": "\nDetails provided by the person or organisation making a request for a procedure or process to occur.\n",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "[Movement] Request \u2013 Move the painting from store to gallery A"
+        ],
+        "use": "Use in association with Information group headings to record the request for a procedure or process to occur, eg [Loan] Request. Record once only for each occurrence of a procedure.",
+        "request_date": {
+            "definition": "\nThe date on which a requester makes a request for a procedure to occur.\n",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "03/10/1996",
+                "2017-12-17"
+            ],
+            "use": "Use in association with Information group headings to record the date a request was made eg [Loan out] Request date. Use Request date for each occurrence of a request."
+        },
+        "requester": {
+            "definition": "\nThe Person or Organisation making a request for a procedure to occur.\n",
+            "how_to_record": "It will be necessary to use several units of information, including, for example, a surname and a forename. The descriptions for these information units are gathered together under the Person or Organisation heading. The organisation may have standard forms of names for use.",
+            "examples": [
+                "See under Person or Organisation."
+            ],
+            "use": "Use in association with Information group headings to record the name of the person who makes a request for a procedure, eg [Loan out] Requester. Use with Request date to record when the request was made."
+        }
+    },
+    "requested_action_date": {
+        "definition": "\nThe date on which a requester wishes for a procedure to occur.\n",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+        "examples": [
+            "03/10/1996",
+            "2017-12-17"
+        ],
+        "use": "Use in association with Information group headings to record the date on which a requester wishes a procedure to take place, eg [Loan out] Requested action date."
+    },
+    "scheduled_begin_date": {
+        "definition": "\nThe date on which a procedure is scheduled to begin.\n",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+        "examples": [
+            "08/10/1993",
+            "2017-12-17"
+        ],
+        "use": "Use in association with Information group headings to record the scheduled start of a procedure, eg [Loan out] Scheduled begin date. Record once only for each procedural reference number. Note that this unit applies to procedures which begin and end in less than a day as well as those which take a longer period of time."
+    },
+    "scheduled_end_date": {
+        "definition": "\nThe date on which a procedure is scheduled to end.\n",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+        "examples": [
+            "08/10/1993",
+            "2017-12-17"
+        ],
+        "use": "Use in association with Information group headings to record the scheduled end of a procedure, eg [Loan out] Scheduled end date. Record once only for each procedural reference number. Note that this unit applies to procedures which begin and end in less than a day as well as those which take a longer period of time."
+    },
+    "status": {
+        "definition": "\nThe stage in the procedure which an individual object has reached.\n",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "planned",
+            "authorised",
+            "agreed",
+            "closed",
+            "cancelled",
+            "refused",
+            "requested",
+            "to be reviewed",
+            "conservation",
+            "requested",
+            "photography requested"
+        ],
+        "use": "Use in association with Information group headings to record the status of a procedure, eg [Loan out] Status. Record once only for each procedure. Previous Statuses may be retained, but should be associated with the appropriate Status date in order to identify the current status.",
+        "status_date": {
+            "definition": "\nThe date on which the status of a procedure was recorded.\n",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "08/10/1993",
+                "2017-12-17"
+            ],
+            "use": "Use in association with Information group headings to record the date of the status of a procedure, eg [Loan out] Status date. Record once only for Status."
+        },
+        "status_review_date": {
+            "definition": "\nThe date on which the status of a procedure will next be reviewed.\n",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give four digits for the year.",
+            "examples": [
+                "08/10/1993",
+                "2017-12-17"
+            ],
+            "use": "Use in association with Information group headings to record the date of the status of a procedure, e.g. [Loan out] Status review date. Record once only for Status."
+        }
+    }
+}

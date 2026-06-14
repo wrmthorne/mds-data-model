@@ -1,0 +1,55 @@
+{
+    "conservation_reference_number": {
+        "definition": "A unique identifying number for the conservation of an object or group of objects. It should serve as the reference to written documentation of conservation.",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number.",
+        "examples": [
+            "C1993.123"
+        ],
+        "use": "The same Conservation reference number can be used for one or more objects conserved together."
+    },
+    "conservation_authoriser": {
+        "definition": "The Person giving final approval for a conservation job to take place.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Record once only for a conservation job.",
+        "conservation_authorisation_date": {
+            "definition": "The date on which the Conservation authoriser gives final approval for an acquisition to proceed.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "17/12/2017",
+                "2018-08-04"
+            ],
+            "use": "Record once only for a conservation job."
+        }
+    },
+    "conservation_method": {
+        "definition": "The method used in the conservation of an object.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "cleaned",
+            "relined",
+            "rehoused"
+        ],
+        "use": "Record more than once for an object only if more than one Conservation method applies."
+    },
+    "conservator": {
+        "definition": "The Person or Organisation treating an object.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person or Organisation headings as appropriate. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person or Organisation."
+        ],
+        "use": "Record once only for a Conservation reference number unless conservation is carried out by more than one Person or Organisation."
+    },
+    "recall_date": {
+        "definition": "The date on which the next stage of a conservation process is due.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Record all four digits for the year.",
+        "examples": [
+            "08/10/1990",
+            "06/1972",
+            "2017-12-17"
+        ],
+        "use": "Record once only for a conservation event."
+    }
+}

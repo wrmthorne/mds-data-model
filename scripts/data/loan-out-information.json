@@ -1,0 +1,121 @@
+{
+    "loan_out_reference_number": {
+        "definition": "The unique number assigned to the loan of objects to other organisations. The number should also refer to a file containing all written documentation about the loan out.",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number.",
+        "examples": [
+            "LO 1993.123"
+        ],
+        "use": "The same Loan out reference number can be used for one or more objects loaned together."
+    },
+    "loan_out_authoriser": {
+        "definition": "The Person giving final approval for a loan to take place.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Record once only for a Loan out reference number.",
+        "loan_out_authorisation_date": {
+            "definition": "The date on which the Loan out authoriser gives final approval for a loan to proceed.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "17/12/2017",
+                "2018-08-04"
+            ],
+            "use": "Record once only for a Loan authoriser."
+        }
+    },
+    "borrower": {
+        "definition": "The details of a Person or Organisation borrowing an object from the organisation.",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, for a Person, a surname, a forename and an address. The descriptions for these information units are gathered together under the Person or Organisation headings as appropriate.",
+        "examples": [
+            "See under Person or Organisation as appropriate."
+        ],
+        "use": "Record once only for a Loan out reference number.",
+        "borrowers_contact": {
+            "definition": "The details of a Person or Organisation designated by the Borrower to be responsible for dealing with the loan on their behalf.",
+            "how_to_record": "It will be necessary to use several units of information, including, for example, a surname and a forename. The descriptions for these information units are gathered together under the Person or Organisation headings as appropriate. The organisation may have standard forms of names for use.",
+            "examples": [
+                "See under Person or Organisation."
+            ],
+            "use": "Record once only for a Borrower."
+        },
+        "borrowers_status": {
+            "definition": "The status of the Person or Organisation borrowing the objects.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "accredited museum",
+                "university researcher"
+            ],
+            "use": "Record once only for a Borrower."
+        }
+    },
+    "special_conditions_of_loan": {
+        "definition": "A statement of conditions on the loan of an object from an organisation in addition to those normally laid down.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Collection must always have an attendant in the same room."
+        ],
+        "use": "Record once only for a Loan out reference number."
+    },
+    "loan_out_begin_date": {
+        "definition": "The date on which you begin to lend the objects.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+        "examples": [
+            "17/12/2017",
+            "2018-08-04"
+        ],
+        "use": "Record once only for a Loan out reference number."
+    },
+    "loan_out_end_date": {
+        "definition": "The date on which you end lending the objects.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year",
+        "examples": [
+            "17/12/2017",
+            "2018-08-04"
+        ],
+        "use": "Record once only for a Loan out reference number."
+    },
+    "loan_out_reason": {
+        "definition": "The reason why a loan out (lending) event is taking place.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "exhibition",
+            "research",
+            "conservation"
+        ],
+        "use": "Record once only for a Loan out reference number."
+    },
+    "loan_out_note": {
+        "definition": "General information about a loan out.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Borrower funds limited \u2013 possible cost sharing required."
+        ],
+        "use": "Record once only for a Loan out reference number."
+    },
+    "loaned_object_status": {
+        "definition": "The stage in the loans out procedure which an individual object to be loaned out has reached.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "requested",
+            "authorised",
+            "agreed",
+            "conservation",
+            "requested",
+            "sent",
+            "photography requested",
+            "refused",
+            "returned"
+        ],
+        "use": "Record once only at any time for any object. Previous Loaned object statuses may be retained, but should be associated with the Loaned object status date in order to identify the current Loaned object status.",
+        "loaned_object_status_date": {
+            "definition": "The date on which a Loaned object status was recorded.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "08/10/1993",
+                "2017-12-17"
+            ],
+            "use": "Record once only for a Loaned object status."
+        }
+    }
+}

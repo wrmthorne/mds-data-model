@@ -1,0 +1,46 @@
+{
+    "damage_loss_reference_number": {
+        "definition": "\nThe unique number assigned to the record of the damage to, or loss of, an object or group of objects. The number should also refer to a file containing all written documentation about the damage or loss.\n",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number.",
+        "examples": [
+            "Loss1993.01",
+            "Damage2017.10"
+        ],
+        "use": "The same Damage/loss reference number can be used for one or more objects acquired together, but an object can only have one Damage/loss reference number."
+    },
+    "damage_loss_date": {
+        "definition": "\nThe date an object was first established as damaged or missing.\n",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+        "examples": [
+            "08/10/1993",
+            "2017-12-17"
+        ],
+        "use": "Record once only each time an object is damaged or lost."
+    },
+    "damage_loss_reporter": {
+        "definition": "\nThe person reporting the damage to, or loss of, an object.\n",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Record once only each time an object is reported to have suffered damage or loss."
+    },
+    "damage_loss_method": {
+        "definition": "\nThe method by which an object or group of objects was damaged or lost to the collections.\n",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "stolen",
+            "burnt",
+            "flood"
+        ],
+        "use": "Record more than once for an object only if more than one Damage/loss method applies."
+    },
+    "damage_loss_note": {
+        "definition": "\nAdditional information about the damage or loss of an object.\n",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Warder reported the case broken and object found to be missing"
+        ],
+        "use": "Record once only each time an object is damaged or lost."
+    }
+}

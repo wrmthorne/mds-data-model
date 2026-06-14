@@ -1,0 +1,150 @@
+{
+    "completeness": {
+        "definition": "A single term describing the completeness of an object.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "complete",
+            "incomplete",
+            "fragmented"
+        ],
+        "use": "Record once only for an object at any one time. Use with previous Completeness information to record changes in the completeness of an object.",
+        "completeness_date": {
+            "definition": "The date on which the completeness of an object was recorded.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Record all four digits for the year.",
+            "examples": [
+                "08/10/1990",
+                "06/1972",
+                "1899",
+                "2017-12-17"
+            ],
+            "use": "Record once only for a Completeness."
+        },
+        "completeness_note": {
+            "definition": "Additional information about the completeness of an object which has not been recorded elsewhere using controlled terminology.",
+            "how_to_record": "Use normal grammar and punctuation.",
+            "examples": [
+                "Lid missing."
+            ],
+            "use": "Record once only for an object."
+        }
+    },
+    "condition": {
+        "definition": "A single term describing the condition of an object.",
+        "how_to_record": "Use a single term or code without punctuation. Maintain a list of standard terms or codes. The overall condition of an object will be the same as the most serious individual condition which has been identified.",
+        "examples": [
+            "1",
+            "2",
+            "A",
+            "B",
+            "poor",
+            "fair"
+        ],
+        "use": "Record once only for an object at any one time. Use with previous Conditions to record changes in the condition of an object.",
+        "condition_date": {
+            "definition": "The date on which the condition of an object was recorded.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Record all four digits for the year.",
+            "examples": [
+                "08/10/1990",
+                "06/1972",
+                "1899",
+                "2017-12-17"
+            ],
+            "use": "Record once only for a Condition."
+        },
+        "condition_note": {
+            "definition": "A brief description of the condition of an object.",
+            "how_to_record": "Use normal grammar and punctuation. Describe in the context of the procedure in which it is used, Referring specifically to any instability, infestation or other notable concern. Positive information can also be usefully recorded if no damage is visible. Use Technical Assessment to record a detailed condition report.",
+            "examples": [
+                "Crack on lid 21mm long, staining around the spout."
+            ],
+            "use": "Record once only for any occasion when the condition of an object is checked."
+        }
+    },
+    "conservation_treatment_priority": {
+        "definition": "A term describing an object\u2019s need for Conservation treatment.",
+        "how_to_record": "Use a single term or code, without punctuation. Maintain a list of standard terms or codes.",
+        "examples": [
+            "1",
+            "2",
+            "A",
+            "B",
+            "urgent"
+        ],
+        "use": "Record once only for an object at any one time"
+    },
+    "environmental_condition_note": {
+        "definition": "A record of the environmental conditions in which an object is kept.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Stored in plastic box in wooden shed with leaking roof, 1/3/1990 to 3/1/1992."
+        ],
+        "use": "As many times as required for an object. Use in association with Environmental condition date to maintain a log of the environmental conditions in which an object has been kept.",
+        "environmental_condition_note_date": {
+            "definition": "The date on which an Environmental condition note applies.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Record all four digits for the year.",
+            "examples": [
+                "17/12/2017",
+                "2018-08-04"
+            ],
+            "use": "Record once only for an Environmental condition note."
+        }
+    },
+    "next_condition_check_assessment_date": {
+        "definition": "The date on which the next condition check or technical assessment is due.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Record all four digits for the year.",
+        "examples": [
+            "08/10/1990",
+            "06/1972",
+            "2017-12-17"
+        ],
+        "use": "Record once only for a Condition check/assessment."
+    },
+    "technical_assessment": {
+        "definition": "Detailed assessment of the condition of an object and the required treatment.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Badly infected with woodworm. Requires emergency treatment. See Report: GCM 0573"
+        ],
+        "use": "Record once only for an object at any one time. Use previous Technical assessments to record changes in the condition of an object.",
+        "technical_assessment_date": {
+            "definition": "The date on which a Technical assessment of an object was recorded.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Record all four digits for the year.",
+            "examples": [
+                "08/10/1990",
+                "06/1972",
+                "1899",
+                "2017-12-17"
+            ],
+            "use": "Record once only for a Technical assessment."
+        }
+    },
+    "hazard": {
+        "definition": "Details of potential hazards to people or other objects that the handling and storing of an object can present.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "poisonous",
+            "radioactive"
+        ],
+        "use": "As many times as required for an object.",
+        "hazard_date": {
+            "definition": "The date on which a Hazard was identified.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "08/10/1993",
+                "2017-12-17"
+            ],
+            "use": "Record once only for a Hazard."
+        },
+        "hazards_note": {
+            "definition": "Details of potential hazards to people or other objects that the handling and storing of an object can present which are not recorded using controlled terminology in Hazard.",
+            "how_to_record": "Use normal grammar and punctuation.",
+            "examples": [
+                "Explodes on sharp impact",
+                "always move with adequate packing",
+                "Infested with woodworm",
+                "Off-gases acetic acid."
+            ],
+            "use": "Record in association with Hazard."
+        }
+    }
+}

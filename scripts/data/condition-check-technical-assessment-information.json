@@ -1,0 +1,56 @@
+{
+    "condition_check_assessment_reference_number": {
+        "definition": "A unique identifying number for the condition checking or technical assessment process. It should serve as the reference to written documentation of a condition check or technical assessment.",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number.",
+        "examples": [
+            "C1993.123"
+        ],
+        "use": "The same Condition check/assessment reference number can be used for one or more objects checked or assessed together."
+    },
+    "condition_checker_assessor": {
+        "definition": "The Person or Organisation which carried out a condition check or technical assessment process.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person or Organisation heading as appropriate. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person or Organisation."
+        ],
+        "use": "Record once only for a condition check or technical assessment unless carried out by more than one Person or Organisation."
+    },
+    "condition_check_assessment_reason": {
+        "definition": "The reason for a condition check or technical assessment process taking place.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "loan in",
+            "damaged in transit",
+            "conservation"
+        ],
+        "use": "Record as many times as required for condition check or technical assessment process."
+    },
+    "condition_check_assessment_date": {
+        "definition": "The date(s) on which a condition check or technical assessment process took place.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Record all four digits for the year.",
+        "examples": [
+            "08/10/1990",
+            "06/1972",
+            "1899",
+            "2017-12-17"
+        ],
+        "use": "Record once only for a Condition and Condition note."
+    },
+    "condition_check_assessment_method": {
+        "definition": "The method used when carrying out a condition check or technical assessment process.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "observed",
+            "x-rayed"
+        ],
+        "use": "Record more than once for an object only if more than one method applies."
+    },
+    "condition_check_assessment_note": {
+        "definition": "Additional information about the condition checking or technical assessment process which has not been recorded elsewhere using controlled terminology.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "The check was made in the presence of the owner."
+        ],
+        "use": "Record once only for a condition check/assessment procedure."
+    }
+}

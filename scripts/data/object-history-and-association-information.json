@@ -1,0 +1,302 @@
+{
+    "associated_activity": {
+        "definition": "An activity associated with an object or group of objects.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "weaving",
+            "boat building"
+        ],
+        "use": "As many times as required for an object or group of objects.",
+        "associated_activity_note": {
+            "definition": "A description of, or comments relating to, an activity associated with an object.",
+            "how_to_record": "Use normal grammar and punctuation.",
+            "examples": [
+                "It was unusual for a woman to own this type of business at this time."
+            ],
+            "use": "Record once only for an object."
+        }
+    },
+    "associated_concept": {
+        "definition": "A concept associated with an object or group of objects.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "love",
+            "peace"
+        ],
+        "use": "As many times as required for an object or group of objects."
+    },
+    "associated_cultural_affinity": {
+        "definition": "A wider cultural context to which an object or group of objects relates.",
+        "how_to_record": "Use a single term. Maintain a list of standard terms, based on a recognised terminology source.",
+        "examples": [
+            "Belgic",
+            "Wessex culture",
+            "Romanesque",
+            "Anglian",
+            "Clactonian"
+        ],
+        "use": "As many times as required for an object or group of objects, and where more precise Object production people/person/place, Date \u2013 period, or Style are inappropriate."
+    },
+    "associated_date": {
+        "definition": "A date associated with an object or group of objects.",
+        "how_to_record": "It may be necessary to use more than one unit of information to describe this date, eg a range of dates or a textual expression of the date. Descriptions of these units of information are gathered together under the Date heading.",
+        "examples": [
+            "As for Date."
+        ],
+        "use": "As many times as required for an object or group of objects."
+    },
+    "associated_event_date": {
+        "definition": "The date of an event in an object\u2019s history.",
+        "how_to_record": "It may be necessary to use more than one unit of information to describe this date, eg a range of dates or a textual expression of the date. Descriptions of these units of information are gathered together under the Date heading.",
+        "examples": [
+            "As for Date."
+        ],
+        "use": "Record once only for an Associated event name."
+    },
+    "associated_event_name": {
+        "definition": "An historical event associated with an object or group of objects, not including production and collections management events. Use the Object history note to describe details about the nature of the association.",
+        "how_to_record": "Use a single term, using punctuation only where it forms a part of the event name and capitalisation for proper names. Maintain a list of standard terms.",
+        "examples": [
+            "The Goose Fair",
+            "The Charge of the Light Brigade"
+        ],
+        "use": "As many times as required for an object or group of objects.",
+        "associated_event_name_type": {
+            "definition": "The type of historical event associated with an object or group of objects.",
+            "how_to_record": "Use a single term without punctuation. Maintain a list of standard terms.",
+            "examples": [
+                "coronation",
+                "massacre",
+                "battle",
+                "garden party"
+            ],
+            "use": "As many times as required for an Associated event name."
+        }
+    },
+    "associated_event_organisation": {
+        "definition": "An Organisation associated with an event in an object\u2019s or group of objects\u2019 history (other than field collection or ownership).",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, a name and an address. The descriptions for these information units are gathered together under the Organisation heading.",
+        "examples": [
+            "See under Organisation."
+        ],
+        "use": "As many times as required for an object or group of objects."
+    },
+    "associated_event_people": {
+        "definition": "A people associated with an event in an object\u2019s or group of objects\u2019 history (other than field collection or ownership).",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a tribe or a linguistic group. The descriptions for these information units are gathered together under the People heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under People."
+        ],
+        "use": "As many times as required for an object or group of objects."
+    },
+    "associated_event_person": {
+        "definition": "A person associated with an event in an object\u2019s or group of objects\u2019 history (other than field collection or ownership).",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "As many times as required for an object or group of objects."
+    },
+    "associated_event_place": {
+        "definition": "A place associated with an event in an object\u2019s history.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a village name or a country name. The descriptions for these information units are gathered together under the Place heading.",
+        "examples": [
+            "See under Place."
+        ],
+        "use": "Record once only for an Associated event name."
+    },
+    "associated_object": {
+        "definition": "An object associated with an object or group of objects.",
+        "how_to_record": "Use a single term. Maintain a list of standard terms, based on a recognised terminology source. Use the same sources of terminology as for recording Object name.",
+        "examples": [
+            "As for Object name."
+        ],
+        "use": "As many times as required for an object or group of objects."
+    },
+    "associated_object_type": {
+        "definition": "A term describing the nature of the Associated object.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "furniture",
+            "food"
+        ],
+        "use": "As many times as required for an Associated object."
+    },
+    "associated_organisation": {
+        "definition": "An Organisation associated with an object\u2019s or group of objects\u2019 history.",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, a name and an address. The descriptions for these information units are gathered together under the Organisation.",
+        "examples": [
+            "See under Organisation."
+        ],
+        "use": "As many times as required for an object or group of objects."
+    },
+    "associated_people": {
+        "definition": "A people associated with an object\u2019s or group of objects\u2019 history.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a tribe or a linguistic group. The descriptions for these information units are gathered together under the People heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under People."
+        ],
+        "use": "As many times as required for an object or group of objects."
+    },
+    "associated_person": {
+        "definition": "A person associated with an object\u2019s or group of objects\u2019 history.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "As many times as required for an object or group of objects."
+    },
+    "associated_place": {
+        "definition": "A place associated with an object or group of objects.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a village name or a country name. The descriptions for these information units are gathered together under the Place heading.",
+        "examples": [
+            "As for Place."
+        ],
+        "use": "As many times as required for an object or group of objects."
+    },
+    "association_note": {
+        "definition": "A narrative description of the nature of the association of an organisation, people, person or place, with the object being recorded (eg design influences and design impact).",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Used to manufacture pottery."
+        ],
+        "use": "Record once only for each association with an object, or group of objects."
+    },
+    "association_type": {
+        "definition": "The way in which the person/group, date, object, concept, event, activity or place is associated with the history of an object or specimen.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "worn",
+            "used",
+            "visited"
+        ],
+        "use": "Record Association type as for an Associated activity, Associated concept, Associated cultural affinity, Associated date, Associated event, Associated person, people or organisation, Associated object and Associated place."
+    },
+    "object_history_note": {
+        "definition": "The history of an object, including its creation, owners, vendors and the circumstances surrounding such events. Record information here which has not been recorded elsewhere using controlled terminology.",
+        "how_to_record": "Use normal grammar and punctuation. Describe information such as: Why an object was produced; Who produced it; Who owned it, sold it and why; Individuals who used an object and for what purpose; Where an object is known to have been.",
+        "examples": [
+            "This female Bewick swan nested at Caerlaverock for six years with the same mate. It was spotted in 1986 at Martin Mere without a mate. A year later it had not bred and was found to be sick. It was shot by the warden."
+        ],
+        "use": "Record once only for an object."
+    },
+    "owner": {
+        "definition": "Details of a People, Person or Organisation who owned an object before title was transferred to the organisation.",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, for a Person, a surname, a forename and an address. The descriptions for these information units are gathered together under the People, Person or Organisation headings as appropriate.",
+        "examples": [
+            "See under People, Person or Organisation as appropriate."
+        ],
+        "use": "As many times as required for an object."
+    },
+    "ownership_access": {
+        "definition": "Information about the access to an object before title was transferred to the organisation.",
+        "how_to_record": "Use a single term or code, without punctuation. Maintain a list of standard terms or codes.",
+        "examples": [
+            "1",
+            "2",
+            "A",
+            "B",
+            "restricted"
+        ],
+        "use": "Record once only for an Owner at any one time."
+    },
+    "ownership_category": {
+        "definition": "A term defining the type of ownership existing for an object before title was transferred to the organisation.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "public",
+            "private",
+            "company"
+        ],
+        "use": "Record once only for an Owner at any one time."
+    },
+    "ownership_dates": {
+        "definition": "The dates when a People, Person or Organisation owned the title to an object.",
+        "how_to_record": "It may be necessary to use more than one unit of information to describe this date, eg a range of dates or a textual expression of the date. Descriptions of these units of information are gathered together under the Date heading.",
+        "examples": [
+            "As for Date."
+        ],
+        "use": "As many times as required for each period of ownership."
+    },
+    "ownership_exchange_method": {
+        "definition": "The means by which title to an object is transferred between two Owners, before title was transferred to the organisation.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "gift",
+            "purchase",
+            "sale at auction"
+        ],
+        "use": "Record once for each ownership exchange. Use Acquisition method for the transfer of title which occurs when an object enters the organisation\u2019s ownership. Use Object history note to describe the full circumstances of the change in ownership."
+    },
+    "ownership_exchange_note": {
+        "definition": "Additional information about the ownership exchange, before title was transferred to the organisation, which has not been recorded elsewhere using controlled terminology.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "The exchange was made as part of a larger arrangement between those involved."
+        ],
+        "use": "Record once only for an ownership exchange."
+    },
+    "ownership_exchange_price": {
+        "definition": "The total price paid for an object at when the title passed between two owners, including taxes for which the transfer is liable.",
+        "how_to_record": "Use local currency. Convert any non-local currency into local, using the exchange rate at date of acquisition. Use Object history note to record details of non-local currency paid.",
+        "examples": [
+            "750.00"
+        ],
+        "use": "Record once only each time a new Owner is recorded for an object."
+    },
+    "ownership_place": {
+        "definition": "The\u00a0Place\u00a0where an object was owned before title was transferred to the organisation.",
+        "how_to_record": "It may be necessary to use several units of information, including, for example, village or a country. The descriptions for these information units are gathered together under the Place heading.",
+        "examples": [
+            "See under Place."
+        ],
+        "use": "Record once only for each place where an object has been owned."
+    },
+    "related_object_number": {
+        "definition": "The Object number of an object which is related to the object being documented.",
+        "how_to_record": "See Object number.",
+        "examples": [
+            "1992.1234",
+            "1992.12.1"
+        ],
+        "use": "Record once only for each relationship.",
+        "related_object_association": {
+            "definition": "The nature of the relationship of an object to the object being documented.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "copy",
+                "colourway",
+                "depiction",
+                "design",
+                "model",
+                "source"
+            ],
+            "use": "Record as many times as required for each Related object number."
+        },
+        "related_object_note": {
+            "definition": "A narrative description of the nature of the relationship of an object to the object being documented.",
+            "how_to_record": "Use normal grammar and punctuation.",
+            "examples": [
+                "The object is a design for the object in the collection."
+            ],
+            "use": "Record once only for each relationship with an object."
+        }
+    },
+    "usage": {
+        "definition": "A single term describing the use of a particular kind of object.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "magic",
+            "religious"
+        ],
+        "use": "As many times as required for an object."
+    },
+    "usage_note": {
+        "definition": "The use of a kind of object by the original or subsequent owners.",
+        "how_to_record": "Use normal grammar and punctuation. Describe the functional or decorative use of an object at different stages in its history. Indicate whether the use was widespread and traditional or specific to an individual or organisation. For the use of specific objects, use Object history note.",
+        "examples": [
+            "Used in the Japanese tea ceremony. Used for filling paper bags with pharmaceutical pills."
+        ],
+        "use": "Record once only for an object or group of objects."
+    }
+}

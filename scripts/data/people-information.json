@@ -1,0 +1,41 @@
+{
+    "peoples_culture": {
+        "definition": "An identifiable type of civilisation.",
+        "how_to_record": "Use a single term, using punctuation only where it forms a part of the term and initial capitalisation for proper names. Maintain a list of standard terms.",
+        "examples": [
+            "Aztec",
+            "Olmec",
+            "Mesopotamian",
+            "Roman"
+        ],
+        "use": "As many times as required for a People."
+    },
+    "peoples_association": {
+        "definition": "The way in which a People are associated with a particular object.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "builder",
+            "moneyer",
+            "designer"
+        ],
+        "use": "As many times as required for an object"
+    },
+    "peoples_group": {
+        "definition": "An identifiable community or division of a nation of People.",
+        "how_to_record": "Use a single term, using punctuation only where it forms a part of the term and initial capitalisation for proper names. Maintain a list of standard terms.",
+        "examples": [
+            "Yoruba",
+            "Korowai",
+            "Han Chinese"
+        ],
+        "use": "Record once only for a People."
+    },
+    "peoples_linguistic_group": {
+        "definition": "A broad grouping of People identifiable by common linguistic roots.",
+        "how_to_record": "Use a single term, using punctuation only where it forms a part of the name and initial capitalisation for proper names. Maintain a list of standard terms.",
+        "examples": [
+            "Dravidian"
+        ],
+        "use": "As many times as required for a People."
+    }
+}

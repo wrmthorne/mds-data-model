@@ -1,0 +1,130 @@
+{
+    "display_recommendations": {
+        "definition": "Specific recommendations for the display of an object in addition to the measures which would normally be taken for that type of object.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Do not open beyond 90 degrees to display \u2013 binding very tight."
+        ],
+        "use": "Record once only for an object or group of objects."
+    },
+    "environmental_recommendations": {
+        "definition": "Specific recommendations for the environment in which an object is to be displayed or stored in addition to the measures which would normally be taken for that type of object.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "30 lux maximum uv light exposure due to ink type."
+        ],
+        "use": "Record once only for an object."
+    },
+    "handling_recommendations": {
+        "definition": "Specific recommendations for handling an object in addition to the measures which would normally be taken for that type of object.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Neck extremely fragile",
+            "handle at base only. Do not wear gloves to handle \u2013 friable paint surface."
+        ],
+        "use": "Record once only for an object."
+    },
+    "packing_recommendations": {
+        "definition": "Specific recommendations for packing an object in addition to the measures which would normally be taken for that type of object.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "To be packed and stored upright at all times."
+        ],
+        "use": "Record once only for an object at any one time."
+    },
+    "security_recommendations": {
+        "definition": "Specific recommendations for the security of an object in addition to the measures which would normally be taken for that type of object.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Alarmed showcase."
+        ],
+        "use": "Record once only for an object."
+    },
+    "special_requirements": {
+        "definition": "Requirements that may be unique or special to a particular object.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Cannot be fumigated \u2013 sacred object."
+        ],
+        "use": "Record once only for an object."
+    },
+    "storage_recommendations": {
+        "definition": "Specific recommendations for the storage of an object in addition to the measures which would normally be taken for that type of object.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Keep at lower than usual relative humidity."
+        ],
+        "use": "Record once only for an object."
+    },
+    "salvage_priority_code": {
+        "definition": "A record of the salvage priority assigned to an object or group of objects.",
+        "how_to_record": "Use a single term or code, without punctuation. Maintain a list of standard terms or codes.",
+        "examples": [
+            "1",
+            "2",
+            "A",
+            "B"
+        ],
+        "use": "Record once only for an object at any one time. Previous Salvage priority codes may be retained, but should be associated with the Salvage priority code date in order to identify the current Salvage priority code.",
+        "salvage_priority_code_date": {
+            "definition": "The date on which a Salvage priority code was recorded.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "08/10/1993",
+                "2017-12-17"
+            ],
+            "use": "Record once only for a Salvage priority code."
+        }
+    },
+    "legal_licence_requirements": {
+        "definition": "Details of any legislation (other than associated rights) which applies to an object while in the organisation\u2019s custody, whether acquired or not.",
+        "how_to_record": "Use normal grammar and punctuation. Refer to relevant acts of parliament as precisely as possible.",
+        "examples": [
+            "Current firearms certificate on file E.1234."
+        ],
+        "use": "Record once only for an object.",
+        "legal_licence_requirements_held": {
+            "definition": "Details of any licences or certificates held (other than copyright or other rights of use or performance) which applies to an object while in the organisation\u2019s custody, whether acquired or not.",
+            "how_to_record": "Use normal grammar and punctuation. Associated documentation may be held in the file referred to by Entry or Acquisition reference numbers.",
+            "examples": [
+                "MOT certificate",
+                "Fire arms certificate"
+            ],
+            "use": ""
+        },
+        "legal_licence_requirements_held_begin_date": {
+            "definition": "The first date on which a licence or certificate held by the organisation is current.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+            "examples": [
+                "08/10/1993",
+                "2017-12-17"
+            ],
+            "use": "Record once only for each licence or certificate held. Use with Legal/licence requirements held."
+        },
+        "legal_licence_requirements_held_end_date": {
+            "definition": "The last date on which a licence or certificate held by the organisation is current.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+            "examples": [
+                "08/10/1993",
+                "2017-12-17"
+            ],
+            "use": "Record once only for each licence or certificate held by the organisation. Use with Legal/licence requirements held."
+        },
+        "legal_licence_requirements_held_numberr": {
+            "definition": "The unique number stated on the licence or certificate held by the organisation.",
+            "how_to_record": "Use the number exactly as it appears on the licence or certificate.",
+            "examples": [
+                "N1234"
+            ],
+            "use": "Record once only for each Legal/licence requirements held."
+        },
+        "legal_licence_requirements_held_renewal_date": {
+            "definition": "The unique number stated on the licence or certificate held by the organisation.",
+            "how_to_record": "Use the number exactly as it appears on the licence or certificate.",
+            "examples": [
+                "N1234"
+            ],
+            "use": "Record once only for each Legal/licence requirements held."
+        }
+    }
+}

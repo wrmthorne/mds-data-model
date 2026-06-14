@@ -1,0 +1,35 @@
+{
+    "valuation_reference_number": {
+        "definition": "A unique identifying number for the valuation of an object or group of objects. It should serve as the reference to written documentation of a valuation.",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number.",
+        "examples": [
+            "V1993.123"
+        ],
+        "use": "The same Valuation reference number can be used for one or more objects valued together."
+    },
+    "valuation_authoriser": {
+        "definition": "The Person giving final approval for a valuation to take place.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Record once only for a valuation.",
+        "valuation_authorisation_date": {
+            "definition": "The date on which the Valuation authoriser gives final approval for a valuation to proceed.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "17/12/2017",
+                "2018-08-04"
+            ],
+            "use": "Record once only for a valuation."
+        }
+    },
+    "valuer": {
+        "definition": "The Person or Organisation responsible for valuing an object on behalf of the organisation.",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, a surname, a forename and an address. The descriptions for these information units are gathered together under the Person or Organisation headings as appropriate.",
+        "examples": [
+            "See under Person or Organisation as appropriate."
+        ],
+        "use": "Record once only for a Valuation reference number."
+    }
+}

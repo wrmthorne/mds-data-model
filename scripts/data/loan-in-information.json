@@ -1,0 +1,116 @@
+{
+    "loan_in_reference_number": {
+        "definition": "The unique number assigned to the loan of objects from outside the organisation. The number should also refer to a file containing written documentation about the loan.",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number.",
+        "examples": [
+            "L1993.123"
+        ],
+        "use": "The same Loan in reference number can be used for one or more objects loaned together, but a loaned object can only have one Loan in reference number at any one time."
+    },
+    "loan_in_reason": {
+        "definition": "The reason why a loan in (borrowing event) is taking place.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "exhibition",
+            "research",
+            "conservation"
+        ],
+        "use": "Record once only for a loan in (borrowing) event."
+    },
+    "lender": {
+        "definition": "The details of a People, Person or Organisation lending an object to the organisation.",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, for a Person, a surname, a forename and an address. The descriptions for these information units are gathered together under the People, Person and Organisation headings as appropriate.",
+        "examples": [
+            "See under People, Person or Organisation as appropriate."
+        ],
+        "use": "More than one Lender can be recorded for an object only if it is jointly owned."
+    },
+    "lenders_authoriser": {
+        "definition": "The member of staff giving final approval for the loan in to proceed.",
+        "how_to_record": "It will be necessary to record several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Record once only for a loan in.",
+        "lenders_authorisation_date": {
+            "definition": "The date on which the Lender\u2019s authoriser gives approval for a loan in to proceed.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "08/10/1993",
+                "2017-12-17"
+            ],
+            "use": "Record once only for a loan in."
+        }
+    },
+    "lenders_contact": {
+        "definition": "The details of a Person designated by the lender of an object to be responsible for dealing with the loan on their behalf.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Record once only for a Lender."
+    },
+    "loan_in_begin_date": {
+        "definition": "The date on which you begin to borrow the objects.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+        "examples": [
+            "17/12/2017",
+            "2018-08-04"
+        ],
+        "use": "Record once only for a loan in (borrowing) event."
+    },
+    "loan_in_end_date": {
+        "definition": "The date on which you end borrowing the objects.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+        "examples": [
+            "17/12/2017",
+            "2018-08-04"
+        ],
+        "use": "Record once only for a loan in (borrowing) event."
+    },
+    "loan_in_contact": {
+        "definition": "The\u00a0Person\u00a0assigned responsibility for managing a loan in on behalf of the organisation.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Record once only for an object or group of objects."
+    },
+    "loan_in_conditions": {
+        "definition": "Conditions applying to objects as part of the loan in agreement, including conditions for deposition of archaeological archives.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Light levels to be restricted to 50 lux."
+        ],
+        "use": "Record once only for an object or group of objects."
+    },
+    "loan_in_note": {
+        "definition": "General information about a loan in.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Lender concerned about environmental conditions",
+            "refer to recent gallery monitoring project."
+        ],
+        "use": "Record once only for a Loan in reference number."
+    },
+    "loan_in_status": {
+        "definition": "The status of the process of carrying out a loan in (borrowing) event.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "begun",
+            "ended",
+            "negotiation",
+            "information exchange"
+        ],
+        "use": "Record once only for a loan in (borrowing) event.",
+        "loan_in_status_date": {
+            "definition": "The date on which a Loan in status was recorded.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate a component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "17/12/2017",
+                "2018-08-04"
+            ],
+            "use": "Record once only for a Loan in status."
+        }
+    }
+}

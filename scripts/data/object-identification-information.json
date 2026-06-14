@@ -1,0 +1,194 @@
+{
+    "object_number": {
+        "definition": "A unique number identifying an object or specimens, including any separated parts.",
+        "how_to_record": "The following points should be considered when assigning an Object number:",
+        "examples": [
+            "1992.1234",
+            "1992.12.1"
+        ],
+        "use": "Assign a unique Object number to each separated or separable part of an object."
+    },
+    "other_number": {
+        "definition": "An alternative number for an object other than the Object number.",
+        "how_to_record": "Exactly as described on an object or documentation from which the Other number is taken. The number may be a former Object number or the number assigned by a lender or a previous owner, for example.",
+        "examples": [
+            "8789 L68-1990"
+        ],
+        "use": "As many times as required for an object.",
+        "other_number_type": {
+            "definition": "A description of an Other number assigned to an object.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "serial",
+                "lender",
+                "obsolete",
+                "unknown",
+                "previous"
+            ],
+            "use": "Record once only for an Other number."
+        }
+    },
+    "number_of_objects": {
+        "definition": "A record of the number of objects at the next level down in an object record.",
+        "how_to_record": "When the recording information relates to a set of objects, record the total number of whole objects included in the set. When the recording information relates to an individual object, record the total number of separated or separable parts which an object comprises. Record the total figure. Do not use punctuation.",
+        "examples": [
+            "24 [Indicating, for example, a tea service with 24 pieces]",
+            "2 [Indicating, for example, a teapot and its lid]"
+        ],
+        "use": "Record once in any record."
+    },
+    "object_name": {
+        "definition": "A description of the form, function or type of object.",
+        "how_to_record": "Use a single term. Maintain a list of standard terms, based on a recognised terminology source.",
+        "examples": [
+            "jug",
+            "Windsor chair",
+            "palaeoniscum freieslebeni",
+            "fossil",
+            "rhenium",
+            "1.56 tape recording interview",
+            "painting",
+            "model",
+            "penny",
+            "groat",
+            "coin"
+        ],
+        "use": "As many times as required for an object.",
+        "object_name_currency": {
+            "definition": "A statement of the status of an Object name.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "current",
+                "archaic"
+            ],
+            "use": "Record once only for an Object name."
+        },
+        "object_name_level": {
+            "definition": "A statement of the position of the Object name in a classification scheme.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "level 1",
+                "genus",
+                "species",
+                "class",
+                "group",
+                "subgroup"
+            ],
+            "use": "Record once only for an Object name."
+        },
+        "object_name_note": {
+            "definition": "Additional information about the Object name.",
+            "how_to_record": "Use normal grammar and punctuation. This can be a description of an object name used to explain further or avoid ambiguity.",
+            "examples": [
+                "Devices, including sticks or blocks, used to apply polishing material."
+            ],
+            "use": "Record once only for an Object name."
+        },
+        "object_name_system": {
+            "definition": "The classification system from which the Object name is taken.",
+            "how_to_record": "The title of the classification system from which the Object name is taken using punctuation and capitalisation as they appear.",
+            "examples": [
+                "Art & Architecture Thesaurus",
+                "Nomenclature"
+            ],
+            "use": "Record once only for an Object name."
+        },
+        "object_name_type": {
+            "definition": "The type of Object name recorded.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "typological",
+                "simple",
+                "classified",
+                "taxonomic",
+                "denomination"
+            ],
+            "use": "Record once only for an Object name."
+        },
+        "object_name_title_language": {
+            "definition": "The language for an Object name, Other name or Title given to an object.",
+            "how_to_record": "Use a single term, using punctuation only where it forms a part of the name and capitalisation for proper names. Maintain a list of standard terms.",
+            "examples": [
+                "French",
+                "German"
+            ],
+            "use": "Record once only for an Object name, Other name or Title."
+        }
+    },
+    "title": {
+        "definition": "The name assigned to an object or group of objects by the artist/creator or collector at the time of origin or subsequent titles either specifically assigned or generally understood to refer to it.",
+        "how_to_record": "Always record the Title with punctuation and capitalisation exactly as given. If an object is titled \u2018Untitled\u2019 record this as the title. Model names and numbers can be regarded as titles. Record the capitalisation as used by the artist or manufacturer.",
+        "examples": [
+            "Silver Shadow",
+            "Barbie",
+            "Virgin and child"
+        ],
+        "use": "The same Title can be assigned to one or more objects. An object can have more than one Title. A Title can be used for a named collection where the Record type indicates that the record is describing a collection.",
+        "object_name_title_language": {
+            "definition": "The language for an Object name, Other name or Title given to an object.",
+            "how_to_record": "Use a single term, using punctuation only where it forms a part of the name and capitalisation for proper names. Maintain a list of standard terms.",
+            "examples": [
+                "French",
+                "German"
+            ],
+            "use": "Record once only for an Object name, Other name or Title."
+        },
+        "title_translation": {
+            "definition": "A translation into the organisation\u2019s first language of a Title as recorded.",
+            "how_to_record": "Use equivalent grammar and punctuation to that in the original language.",
+            "examples": [
+                "The robbers"
+            ],
+            "use": "As many times as required for a Title. Use Title to record named collections of objects."
+        },
+        "title_type": {
+            "definition": "The nature of the Title recorded.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "assigned by artist",
+                "series",
+                "generic",
+                "collection",
+                "popular",
+                "trade"
+            ],
+            "use": "As many times as required for a Title."
+        }
+    },
+    "brief_description": {
+        "definition": "A text description of an object in approximately one sentence; normally used for administrative and identification purposes. It records the most important information from a number of separate descriptive units of information.",
+        "how_to_record": "Use normal grammar and punctuation. Give sufficient information to identify an object for the purposes of stock checking, written file titles, and accessions registers. The information need not be unique, but use information that enables visual recognition of an object where possible.",
+        "examples": [
+            "Blue spotted earthenware jug, 20th century."
+        ],
+        "use": "Record at least once for an object."
+    },
+    "comments": {
+        "definition": "Additional comments made about an object by visitors, curators or researchers.",
+        "how_to_record": "Use normal grammar and punctuation. Any information can be recorded here provided there is no other identified unit of information more suitable for the purpose.",
+        "examples": [
+            "The identification of an object was thought to be wrong by Dr. H Jones who visited on 13.4.1992. He claimed to have detailed knowledge of this form of instrument",
+            "his address is held on the department\u2019s files."
+        ],
+        "use": "As many times as required for an object."
+    },
+    "distinguishing_features": {
+        "definition": "A description of features which could uniquely identify an object, bringing together details from other groups of units of information such as identification, inscription, and condition which could in a sentence uniquely identify an object.",
+        "how_to_record": "Use normal grammar and punctuation. This information may be used in the event of theft to provide the Police with information which will help identify an object in the pursuit and recovery of an object.",
+        "examples": [
+            "Monogram on base, one handle replaced."
+        ],
+        "use": "Record once only for an object."
+    },
+    "responsible_department_section": {
+        "definition": "The department or section of the organisation responsible for the management of the object or group of objects.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "geology",
+            "ceramics and glass",
+            "invertebrates",
+            "fine art"
+        ],
+        "use": "Record once only for an object, or group of objects, at any one time."
+    }
+}

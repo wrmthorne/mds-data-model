@@ -1,0 +1,98 @@
+{
+    "exit_reference_number": {
+        "definition": "A unique identifying number for an exit. It should serve as the reference to written documentation of an exit. The number may be assigned to an exit note or receipt.",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number.",
+        "examples": [
+            "D1993.123"
+        ],
+        "use": "The same Object exit reference number can be used for one or more objects sent together, but an object can only have one Object exit reference number for any one exit."
+    },
+    "delivery_date": {
+        "definition": "The precise date on which an object or objects leaving the organisation is due to be delivered at its destination.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+        "examples": [
+            "08/10/1993",
+            "2017-12-17"
+        ],
+        "use": "Record once only for an exit authorisation."
+    },
+    "exit_authoriser": {
+        "definition": "The Person giving final approval for an object exit to take place.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Record once only for each object exit.",
+        "exit_authorisation_date": {
+            "definition": "The date on which the Exit authoriser gives final approval for a movement to proceed.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "17/12/2017",
+                "2018-08-04"
+            ],
+            "use": "Record once only for an exit."
+        }
+    },
+    "exit_date": {
+        "definition": "The date on which an object or objects leaves the organisation.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+        "examples": [
+            "08/10/1993",
+            "2017-12-17"
+        ],
+        "use": "Record once only for each exit."
+    },
+    "exit_destination": {
+        "definition": "The Person or Organisation to whom an object is being sent.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname, a forename and an address. The descriptions for these information units are gathered together under the Person and Organisation headings as appropriate.",
+        "examples": [
+            "See under Person or Organisation as appropriate."
+        ],
+        "use": "Record once only for an exit."
+    },
+    "exit_method": {
+        "definition": "The method by which an object or group of objects leaves the organisation.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "collected by shipper"
+        ],
+        "use": "Record more than once for an object only if more than one method applies."
+    },
+    "exit_note": {
+        "definition": "Additional information relating to the exit of an object which cannot be recorded elsewhere.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Refer to exit file for courier information and destination maps."
+        ],
+        "use": "Record once only for an exit."
+    },
+    "exit_reason": {
+        "definition": "The reason why an exit took place.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "exhibition",
+            "disposal",
+            "use"
+        ],
+        "use": "Record once only for an exit."
+    },
+    "expected_return_date": {
+        "definition": "The date objects are expected to return to your buildings.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+        "examples": [
+            "17/12/2017",
+            "2018-08-04"
+        ],
+        "use": "Record once only for an exit."
+    },
+    "expected_return_method": {
+        "definition": "The way objects will be returned to your buildings.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "courier",
+            "registered post",
+            "hand delivery"
+        ],
+        "use": "Record once only for an exit."
+    }
+}

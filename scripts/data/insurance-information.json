@@ -1,0 +1,88 @@
+{
+    "insurance_reference_number": {
+        "definition": "\nA unique identifying number of the insurance as assigned by the organisation. The number should be a reference to written documentation about the indemnity, which should include a copy of the indemnity.\n",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number.",
+        "examples": [
+            "Ins1993.123"
+        ],
+        "use": "The same Insurance reference number can be used for one or more objects covered by the same insurance policy, but an object can only have one Insurance reference number at any one time."
+    },
+    "insurer": {
+        "definition": "\nThe Person or Organisation responsible for insuring an object or group of objects.\n",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname, a forename and an address. The descriptions for these information units are gathered together under the Person or Organisation headings as appropriate.",
+        "examples": [
+            "See under Person or Organisation as appropriate."
+        ],
+        "use": "More than one Insurer can only be recorded for an object if it is jointly insured."
+    },
+    "insurance_policy_number": {
+        "definition": "\nThe number of the insurance policy as assigned by the Insurer.\n",
+        "how_to_record": "Use the number exactly as provided by the Insurer.",
+        "examples": [
+            "GI86585700-1"
+        ],
+        "use": "Record once only each time an object is part of an insurance procedure."
+    },
+    "insurance_amount": {
+        "definition": "\nThe amount of insurance cover that is provided in an insurance event.\n",
+        "how_to_record": "Use local currency. Convert any non-local currency into local, using the exchange rate at date of insuring.",
+        "examples": [
+            "750.00"
+        ],
+        "use": "Record once only for an insurance event."
+    },
+    "insurance_authoriser": {
+        "definition": "\nThe Person giving final approval for an insurance event to take place.\n",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Record once only for an insurance event.",
+        "insurance_authorisation_date": {
+            "definition": "\nThe date on which the Insurance authoriser gives final approval for an insurance event to proceed.\n",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "17/12/2017",
+                "2018-08-04"
+            ],
+            "use": "Record once only for an insurance event."
+        }
+    },
+    "insurance_begin_date": {
+        "definition": "\nThe date when an insurance policy begins to be active.\n",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Record all four digits for the year.",
+        "examples": [
+            "8/10/1990",
+            "2017-12-17"
+        ],
+        "use": "Record once only for an insurance event."
+    },
+    "insurance_end_date": {
+        "definition": "\nThe date when an insurance policy stops being active.\n",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Record all four digits for the year.",
+        "examples": [
+            "08/10/1990",
+            "2017-12-17"
+        ],
+        "use": "Record once only for an insurance event."
+    },
+    "insurance_note": {
+        "definition": "\nOther information about an insurance event not recorded elsewhere.\n",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Not covered in transit",
+            "obtain additional insurance when moving",
+            "Taken out as a result of a use request."
+        ],
+        "use": "Record once only for an insurance event."
+    },
+    "insurance_renewal_date": {
+        "definition": "\nDefinition\nThe date when an insurance policy is due for renewal.\n",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Record all four digits for the year.",
+        "examples": [
+            "2017-12-17",
+            "08/10/1990"
+        ],
+        "use": "Record once only for an Insurance policy number. Note that renewal may take place ahead of the end date of the insured period."
+    }
+}

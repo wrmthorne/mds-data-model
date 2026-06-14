@@ -1,0 +1,44 @@
+{
+    "treatment_report": {
+        "definition": "Detailed description of the conservation treatment undergone by an object.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "X-rayed. Treated with a solution of tannic acid, distilled water and ethanol. For a full details see Report no: RLS \u2013 1244"
+        ],
+        "use": "Record once only for a single Conservation reference number."
+    },
+    "treatment_begin_date": {
+        "definition": "The date at which the treatment of an object, or group of objects began.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Record all four digits for the year.",
+        "examples": [
+            "17/12/2017",
+            "2018-08-04"
+        ],
+        "use": "Record once only for a Treatment report."
+    },
+    "treatment_end_date": {
+        "definition": "The date at which the treatment of an object, or group of objects ended.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Record all four digits for the year.",
+        "examples": [
+            "17/12/2017",
+            "2018-08-04"
+        ],
+        "use": "Record once only for a Treatment report."
+    },
+    "conservation_material": {
+        "definition": "The materials used in the conservation of an object.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "ethanol"
+        ],
+        "use": "As many times as required for an object."
+    },
+    "conservation_note": {
+        "definition": "Additional information about conservation of an object, or group of objects, which has not been recorded elsewhere using controlled terminology.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Original stretcher to be returned to the owner."
+        ],
+        "use": "Record once only for the conservation of an object, or group of objects."
+    }
+}

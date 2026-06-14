@@ -1,0 +1,97 @@
+{
+    "entry_number": {
+        "definition": "A unique number assigned to the entry of an object or group of objects and used to track objects prior to their return or acquisition. It should serve as the reference to written documentation of objects entering the organisation for the first time. The number should be the one assigned to an entry form or receipt.",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number.",
+        "examples": [
+            "E1993.123"
+        ],
+        "use": "The same Entry number can be used for one or more objects received together, but an object can only have one Entry number at any one time."
+    },
+    "entry_date": {
+        "definition": "The date on which an object or group of objects enters the organisation.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+        "examples": [
+            "08/10/1990",
+            "2017-12-17"
+        ],
+        "use": "Record once only for an object entry."
+    },
+    "entry_method": {
+        "definition": "The method by which an object or group of objects is deposited.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "in person",
+            "post",
+            "found on doorstep"
+        ],
+        "use": "Record more than once for a deposit only if more than one Entry method is used"
+    },
+    "entry_reason": {
+        "definition": "The reason for an object or group of objects physically entering the organisation.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "enquiry",
+            "commission",
+            "loan"
+        ],
+        "use": "Record once only for an object entry event."
+    },
+    "entry_manager": {
+        "definition": "The Person who receives the object when it enters the organisation\u2019s buildings.",
+        "how_to_record": "It will be necessary to use several units of information including, for example, a surname, a forename. The descriptions for these information unit are gathered together under the Person heading.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Record once only for an object entry."
+    },
+    "current_owner": {
+        "definition": "Details of the owner of a loaned or temporarily deposited object, or other object in the organisation\u2019s custody which does not belong to the organisation.",
+        "how_to_record": "It will be necessary to record several units of information, including for example, for a Person, a surname and a forename. The descriptions for these information units are gathered together under the People, Person or Organisation headings as appropriate. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under People, Person or Organisation as appropriate."
+        ],
+        "use": "Record once only for an object or group of objects."
+    },
+    "depositor": {
+        "definition": "The Person or Organisation from whom a loaned or temporarily deposited object was obtained, if different from the Current owner or Lender.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, for a Person, a surname and a forename. The descriptions for these information units are gathered together under the Person and Organisation headings as appropriate. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person or Organisation as appropriate."
+        ],
+        "use": "Record once only for each object or group of objects.",
+        "depositors_requirements": {
+            "definition": "Requirements made by a depositor or owner concerning the deposit of an object or group of objects, including conditions for deposition of archaeological archives.",
+            "how_to_record": "Use normal grammar and punctuation.",
+            "examples": [
+                "Not to be operated"
+            ],
+            "use": "Record once only for each deposit."
+        }
+    },
+    "entry_note": {
+        "definition": "Additional information about the deposit of an object which has not been recorded elsewhere using controlled terminology.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Enquiry needs to be completed by Friday",
+            "owner leaving the country."
+        ],
+        "use": "Record once only for an object entry."
+    },
+    "packing_note": {
+        "definition": "Information about the packing of an object or group of objects at the time of deposit at the organisation.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Glass taped, bubblewrapped."
+        ],
+        "use": "Record once only for a deposit."
+    },
+    "return_date": {
+        "definition": "The date an object is due to be returned to or collected by the Current owner or Depositor.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+        "examples": [
+            "08/10/1993",
+            "2017-12-17"
+        ],
+        "use": "Record once only for an Entry number."
+    }
+}

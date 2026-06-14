@@ -1,0 +1,112 @@
+{
+    "movement_reference_number": {
+        "definition": "A unique identifying number for the movement of an object or group of objects. It should serve as the reference to written documentation of a movement.",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number.",
+        "examples": [
+            "M1993.123"
+        ],
+        "use": "The same Movement reference number can be used for one or more objects moved together."
+    },
+    "movement_authoriser": {
+        "definition": "The Person giving final approval for a movement to take place.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Record once only for a movement.",
+        "movement_authorisation_date": {
+            "definition": "The date on which the Movement authoriser gives final approval for a movement to proceed.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "17/12/2017",
+                "2018-08-04"
+            ],
+            "use": "Record once only for a movement."
+        }
+    },
+    "movement_contact": {
+        "definition": "The member of staff responsible for an object during the move.",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Record once only for a move."
+    },
+    "movement_method": {
+        "definition": "The method used in the movement of an object.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "handcarried",
+            "trolley"
+        ],
+        "use": "Record more than once for an object only if more than one Movement method applies."
+    },
+    "movement_note": {
+        "definition": "Additional information about the movement of an object or group of objects which has not been recorded elsewhere using controlled terminology.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Movement route to take into account current construction work."
+        ],
+        "use": "Record once only for a movement."
+    },
+    "movement_reason": {
+        "definition": "The reason why a movement took place.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "conservation",
+            "loan out",
+            "exhibition"
+        ],
+        "use": "Record once only for an object or group of objects moved."
+    },
+    "planned_removal_date": {
+        "definition": "The date an object is due to be returned from a Current location which is not its Normal location.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+        "examples": [
+            "08/10/1993",
+            "2017-12-17"
+        ],
+        "use": "Record once only for a Current location, if different from the Normal location. Do not record if the Current location and the Normal location are the same."
+    },
+    "removal_date": {
+        "definition": "The date an object is actually removed from a Current location.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+        "examples": [
+            "08/10/1993",
+            "2017-12-17"
+        ],
+        "use": "Record once only for a Current location."
+    },
+    "shipper": {
+        "definition": "The Person or Organisation assigned responsibility for moving object(s) from the organisation\u2019s premises or between its buildings.",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, a surname, a forename and an address. The descriptions for these information units are gathered together under the Person or Organisation headings as appropriate.",
+        "examples": [
+            "See under Person or Organisation as appropriate."
+        ],
+        "use": "As many times as required for a movement event.",
+        "shippers_contact": {
+            "definition": "The name of the person assigned responsibility for a movement by an approved Shipper.",
+            "how_to_record": "It will be necessary to use several units of information, including, for example, a surname, a forename and an address. The descriptions for these information units are gathered together under the Person heading.",
+            "examples": [
+                "See under Person."
+            ],
+            "use": "Record once only for a Shipper."
+        }
+    },
+    "shipping_note": {
+        "definition": "Additional information about shipping an object, including details of the transit requirements.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Keep upright \u2013 needs air-ride suspension."
+        ],
+        "use": "Record once only for a movement."
+    },
+    "organisation_courier": {
+        "definition": "The Person assigned the responsibility to accompany an object on an external move.",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, a surname, a forename and an address. The descriptions for these information units are gathered together under the Person heading.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Record once only for a movement."
+    }
+}

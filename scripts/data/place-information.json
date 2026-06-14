@@ -1,0 +1,215 @@
+{
+    "place_reference_number": {
+        "definition": "A code describing a Place associated with an object, excavation or specimen.",
+        "how_to_record": "Use a single term or code, without punctuation. Maintain a list of standard terms or codes. May include an abbreviation of the Place name together with the year an object or specimen was found.",
+        "examples": [
+            "FLG1992"
+        ],
+        "use": "Record once only for a Place.",
+        "place_reference_number_type": {
+            "definition": "The category of Place reference number recorded.",
+            "how_to_record": "Use a single term, using capitalisation and punctuation only where integral to the term used. Maintain a list of standard terms.",
+            "examples": [
+                "SMR number",
+                "Project number",
+                "Scheduled monument number",
+                "Watching brief number"
+            ],
+            "use": "Record as required in association with Place reference number."
+        }
+    },
+    "place_name": {
+        "definition": "The name or title by which the Place is normally known.",
+        "how_to_record": "Use punctuation and capitalisation where integral to the name.",
+        "examples": [
+            "Shrewsbury",
+            "North Sea",
+            "West Yorkshire",
+            "Ambridge",
+            "21",
+            "Haddon Hall",
+            "Asia",
+            "Australasia",
+            "Orkney",
+            "Manhattan",
+            "Stoke Newington",
+            "Scotland",
+            "Hobbs End"
+        ],
+        "use": "As many times as required for a Place.",
+        "place_name_type": {
+            "definition": "The nature or category of Place recorded.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "baths",
+                "chambered tomb",
+                "market square",
+                "town",
+                "city",
+                "village",
+                "continent",
+                "sub-continent",
+                "site",
+                "building number",
+                "field",
+                "vice county",
+                "county",
+                "country",
+                "building name",
+                "state"
+            ],
+            "use": "As many times as required for a Place, to reflect different uses of a site."
+        }
+    },
+    "place_association": {
+        "definition": "The way in which a Place is associated with the object.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Use past participle forms of verbs. Maintain a list of standard terms.",
+        "examples": [
+            "manufactured",
+            "built",
+            "used"
+        ],
+        "use": "As many times as required for an object."
+    },
+    "place_context": {
+        "definition": "A number, code or term identifying physical evidence of an archaeological event, such as a wall, pit or ditch.",
+        "how_to_record": "Record precisely as used by the Field collector.",
+        "examples": [
+            "34",
+            "56",
+            "XXI",
+            "kiln stoke-hole",
+            "North transept"
+        ],
+        "use": "Record once only for an object if required.",
+        "place_context_date": {
+            "definition": "The date of a context.",
+            "how_to_record": "It may be necessary to use more than one unit of information to describe this date, eg a range of dates or a textual expression of the date. Descriptions of these units of information are gathered together under the Date heading.",
+            "examples": [
+                "As for Date."
+            ],
+            "use": "Record once only for a Place context or and Place context level."
+        },
+        "place_context_level": {
+            "definition": "A level within a context.",
+            "how_to_record": "Record precisely as used by the Field collector.",
+            "examples": [
+                "1",
+                "5",
+                "B16",
+                "XB"
+            ],
+            "use": "Record once only for an object if required."
+        }
+    },
+    "place_coordinates": {
+        "definition": "The precise location of a place expressed according to a chosen system.",
+        "how_to_record": "Use the appropriate standard format.",
+        "examples": [
+            "AS 3192 6024"
+        ],
+        "use": "Record once only for a Place name. Additional Place coordinates can be recorded if different Place coordinate types are used; for example a latitude/longitude reference and a grid reference may be recorded for the same location.",
+        "place_coordinates_qualifier": {
+            "definition": "The measurement of accuracy of a given for Place coordinates.",
+            "how_to_record": "Use the standard statistical notation. If left blank, the assumption is that the Place coordinates accuracy recorded is thought to be correct. Do not use capitalisation or punctuation.",
+            "examples": [
+                "+ or \u2013 10",
+                "approximate"
+            ],
+            "use": "Record once only for Place coordinates, if there is any uncertainty."
+        },
+        "place_coordinates_type": {
+            "definition": "The locating system used to describe the coordinates of a Place.",
+            "how_to_record": "Use a single code or term, without punctuation. Maintain a list of standard codes or terms.",
+            "examples": [
+                "LL (Latitude & longitude)",
+                "NGR (National Grid reference)",
+                "UTM (Universal Transverse Mercator)",
+                "Altitude Depth"
+            ],
+            "use": "Record once only for Place coordinates."
+        }
+    },
+    "place_environmental_details": {
+        "definition": "Environmental information relevant to an object, such as details about preservation conditions of the surrounding matrix.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "waterlogged",
+            "carbonized bed"
+        ],
+        "use": "Record for a Place name as required."
+    },
+    "place_feature": {
+        "definition": "The name by which a feature associated with an object is normally known.",
+        "how_to_record": "Use a single term, using punctuation and capitalisation only where they form a part of the name. Maintain a list of standard terms.",
+        "examples": [
+            "Ben Lawers",
+            "Beachy Head",
+            "Chun Castle"
+        ],
+        "use": "As many times as required for a Place. Place feature can relate to Sites and Monuments details.",
+        "place_feature_date": {
+            "definition": "The date of the Place feature.",
+            "how_to_record": "It may be necessary to use more than one unit of information to describe this date, eg a range of dates or a textual expression of the date as well as the production stage which the date is related to. Descriptions of these units of information are gathered together under the Date heading. Use Date \u2013 period to record non-numeric dates and eras relating to an object\u2019s production.",
+            "examples": [
+                "As for Date."
+            ],
+            "use": "As many times as required for a Place feature."
+        },
+        "place_feature_type": {
+            "definition": "The nature or category of Place feature recorded.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "island",
+                "mountain",
+                "bay",
+                "valley",
+                "cliff",
+                "castle",
+                "tomb"
+            ],
+            "use": "As many times as required for a Place feature."
+        }
+    },
+    "place_note": {
+        "definition": "Additional information about Place which has not been recorded elsewhere using controlled terminology.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "The site is four miles north of Ambleside."
+        ],
+        "use": "Record once only for a Place name."
+    },
+    "place_owner": {
+        "definition": "The owner of a Place associated with an object.",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, a surname, a forename and an address. The descriptions for these information units are gathered together under the People, Person and Organisation headings.",
+        "examples": [
+            "See under People, Person or Organisation."
+        ],
+        "use": "Record more than once for a Place if jointly owned."
+    },
+    "place_position": {
+        "definition": "A precise position in a Place, usually to record the finding of an object in field collection.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Under a stone at the bottom of the cliff."
+        ],
+        "use": "Record once only for an object."
+    },
+    "place_status": {
+        "definition": "A formal administrative or scientific status assigned to a Place.",
+        "how_to_record": "Use a single term, using capitalisation and punctuation only where integral to the term used. Maintain a list of standard terms.",
+        "examples": [
+            "National Trust Area of Outstanding Natural Beauty"
+        ],
+        "use": "As many times as required for a Place."
+    },
+    "place_type_system": {
+        "definition": "The classification system from which the Place feature type is taken.",
+        "how_to_record": "Use punctuation and capitalisation as they appear.",
+        "examples": [
+            "Historic England",
+            "CIDOC"
+        ],
+        "use": "Record once only for a Place feature type."
+    }
+}

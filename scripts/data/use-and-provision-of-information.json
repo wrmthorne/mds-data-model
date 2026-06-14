@@ -1,0 +1,18 @@
+{
+    "confidentiality_note": {
+        "definition": "Restrictions agreed on the publication of details of an object, personnel, site location or other details associated with an object or archive.",
+        "how_to_record": "Use normal grammar and punctuation. Describe precisely the nature of the confidentiality agreement, including how long it applies.",
+        "examples": [
+            "Grid reference to be published as 4 figures only. Finder wishes to remain anonymous."
+        ],
+        "use": "Record once for every object, documentary archive or finds archive when appropriate."
+    },
+    "information_usage": {
+        "definition": "Information on the use made of the record and associated resources",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Used in multimedia essay on the Vikings."
+        ],
+        "use": "Record once only for an object."
+    }
+}

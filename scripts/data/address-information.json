@@ -1,0 +1,63 @@
+{
+    "address_text": {
+        "definition": "The address of an Organisation, Person or Location as expressed for mailing purposes.",
+        "how_to_record": "Use punctuation and capitalisation as required.",
+        "examples": [
+            "Rich Mix, 35-47 Bethnal Green Road, London E1 6LA, United Kingdom"
+        ],
+        "use": "Record once only for an Address."
+    },
+    "address_place": {
+        "definition": "The elements of an Address which are required for retrieval purposes.",
+        "how_to_record": "It may be necessary to use several units of information, including for example, a town, city or country. The descriptions for these information units are gathered together under the Place heading.",
+        "examples": [
+            "As for Place."
+        ],
+        "use": "As many times as required for an Address."
+    },
+    "address_postcode": {
+        "definition": "The postcode or zip code of an Address.",
+        "how_to_record": "As it is normally given, including spaces and capitalisation where integral to the code.",
+        "examples": [
+            "CB1 4DH",
+            "OM142354"
+        ],
+        "use": "Record once only for an Address."
+    },
+    "address_email": {
+        "definition": "The e-mail address used to contact an Organisation or Person.",
+        "how_to_record": "As it is normally given.",
+        "examples": [
+            "office@collectionstrust.org.uk"
+        ],
+        "use": "As many times as required for an Address."
+    },
+    "address_fax_number": {
+        "definition": "The fax number used to contact an Organisation or Person.",
+        "how_to_record": "As it is normally given, including the area or country code as required.",
+        "examples": [
+            "01223 362 521",
+            "020 7059 9750"
+        ],
+        "use": "As many times as required for an Address."
+    },
+    "address_telephone_number": {
+        "definition": "The telephone number used to contact an Organisation or Person.",
+        "how_to_record": "As it is normally given, including the area or country code as required.",
+        "examples": [
+            "01223 315760",
+            "0101 202456976"
+        ],
+        "use": "As many times as required for an Address."
+    },
+    "address_type": {
+        "definition": "The status or use of the Address recorded.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "street",
+            "mailing",
+            "alternative"
+        ],
+        "use": "As many as required for an Address."
+    }
+}

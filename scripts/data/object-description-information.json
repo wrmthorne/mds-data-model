@@ -1,0 +1,566 @@
+{
+    "age": {
+        "definition": "The numeric age of a natural science specimen when it died. Use Age unit to describe the unit of measurement used and Age qualifier to qualify the information. Use Phase for a textual description of Age.",
+        "how_to_record": "Numerically and without punctuation.",
+        "examples": [
+            "1",
+            "3.5",
+            "79"
+        ],
+        "use": "Record once only for a specimen."
+    },
+    "age_qualifier": {
+        "definition": "A qualification of the statement of the Age of a natural science specimen.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "over",
+            "under",
+            "approximately"
+        ],
+        "use": "Record once only for an Age."
+    },
+    "age_unit": {
+        "definition": "The unit of measurement used to describe the Age of a natural science specimen.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "days",
+            "years"
+        ],
+        "use": "Record once only for an Age."
+    },
+    "colour": {
+        "definition": "The colour of an object.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation unless this forms part of the name of a colour. Maintain a list of standard terms. Record colours which are important for retrieval purposes. If an object comprises many colours, record that fact only if it is significant in the production of the object. Record colours in the Physical description in the context of other aspects of an object.",
+        "examples": [
+            "red",
+            "blue",
+            "polychrome"
+        ],
+        "use": "As many times as required for an object."
+    },
+    "content_activity": {
+        "definition": "An activity depicted in or described by an object.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "tea drinking",
+            "swimming",
+            "praying"
+        ],
+        "use": "As many times as required for an object."
+    },
+    "content_concept": {
+        "definition": "A concept depicted in or described by an object.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "love",
+            "peace"
+        ],
+        "use": "As many times as required for an object."
+    },
+    "content_date": {
+        "definition": "A date depicted in or described by an object.",
+        "how_to_record": "It may be necessary to use more than one unit of information to describe this date, eg a range of dates or a textual expression of the date as well as the production stage which the date is related to. Descriptions of these units of information are gathered together under the Date heading. Use Date \u2013 period to record non-numeric dates and eras relating to an object\u2019s production.",
+        "examples": [
+            "As for Date."
+        ],
+        "use": "As many times as required for an object."
+    },
+    "content_description": {
+        "definition": "A general description of a depiction in an object, or description of an object without making interpretation. This may include descriptions of the content of all audio and visual works. Use Brief description and Physical description to describe an object\u2019s other features.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Hunting scene with two figures on horseback."
+        ],
+        "use": "Record once only for an object."
+    },
+    "content_event_name": {
+        "definition": "An event depicted on or described by an object.",
+        "how_to_record": "Use a single term, using punctuation only where it forms a part of the event name and capitalisation for proper names. Maintain a list of standard terms.",
+        "examples": [
+            "The Goose Fair",
+            "The Charge of the Light Brigade"
+        ],
+        "use": "As many times as required for an object.",
+        "content_event_name_type": {
+            "definition": "A term describing the nature of the Content \u2013 event name.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "coronation",
+                "massacre",
+                "battle",
+                "garden party"
+            ],
+            "use": "As many times as required for a Content event name."
+        }
+    },
+    "content_language": {
+        "definition": "The language the textual content of an object.",
+        "how_to_record": "Use a single term to identify the language used in the inscription. Do not use punctuation except where it forms an integral part of the name of a language. Use initial capitals only for proper names.",
+        "examples": [
+            "French",
+            "English",
+            "Fr",
+            "En"
+        ],
+        "use": "As many times as required for an object."
+    },
+    "content_note": {
+        "definition": "Additional information about an object\u2019s content which has not been recorded elsewhere using controlled terminology.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "The designs in the drawing will be used as the basis for a commissioned sculpture to mark the Millennium."
+        ],
+        "use": "Record once only for an object."
+    },
+    "content_object": {
+        "definition": "An object depicted in or described by another object.",
+        "how_to_record": "Use a single term. Maintain a list of standard terms, based on a recognised terminology source. Use the same sources of terminology as for recording Object name.",
+        "examples": [
+            "As for Object name."
+        ],
+        "use": "As many times as required for an object.",
+        "content_object_type": {
+            "definition": "A term describing the nature of the Content \u2013 object.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "furniture",
+                "food"
+            ],
+            "use": "As many times as required for a Content \u2013 object."
+        }
+    },
+    "content_organisation": {
+        "definition": "The Organisation depicted in or described in an object.",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, a name and an address. The descriptions for these information units are gathered together under the Organisation heading.",
+        "examples": [
+            "See under Organisation."
+        ],
+        "use": "As many times as required for an object."
+    },
+    "content_other": {
+        "definition": "An aspect of the content depicted in or described in an object, not covered by the other content units.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms. The organisation should decide what aspects of content it needs to record in order to use this unit.",
+        "examples": [
+            "wood",
+            "female"
+        ],
+        "use": "As many times as required for an object.",
+        "content_other_type": {
+            "definition": "The type of aspect being recorded by Content \u2013 other.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "material",
+                "gender"
+            ],
+            "use": "Once only for a Content \u2013 other."
+        }
+    },
+    "content_people": {
+        "definition": "A People depicted in or described by an object.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a tribe or a linguistic group. The descriptions for these information units are gathered together under the People heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under People."
+        ],
+        "use": "As many times as required for an object."
+    },
+    "content_person": {
+        "definition": "A Person depicted in or described by an object.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "As many times as required for an object."
+    },
+    "content_place": {
+        "definition": "A Place depicted in or described by an object.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a village name or a country name. The descriptions for these information units are gathered together under the Place heading.",
+        "examples": [
+            "As for Place."
+        ],
+        "use": "As many times as required for an object."
+    },
+    "content_position": {
+        "definition": "The position on an object of a depiction or description.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "obverse",
+            "reverse",
+            "edge",
+            "front",
+            "back",
+            "side 1"
+        ],
+        "use": "As many times as required for a depiction or description."
+    },
+    "content_script": {
+        "definition": "The script the textual content of an object.",
+        "how_to_record": "Use a single term to identify the script used. Do not use punctuation except where it forms an integral part of the name of a script. Use initial capitals only for proper names. Maintain a list of standard terms.",
+        "examples": [
+            "secretary hand",
+            "chancery hand",
+            "Cyrillic",
+            "unidentified far eastern script"
+        ],
+        "use": "As many times as required for an object."
+    },
+    "copy_number": {
+        "definition": "A number assigned to an object by the maker within a limited edition or special run.",
+        "how_to_record": "Use the number of an object followed by the size of the complete run if known. Note if the number of the complete run is not known. Use Other number to record serial number information.",
+        "examples": [
+            "Number 45 of 5000",
+            "Number 3 of unknown number"
+        ],
+        "use": "Record once only for an object."
+    },
+    "dimension": {
+        "definition": "The aspect of a part or component of an object being measured.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms. The organisation should agree a standard method of measuring different types of object.",
+        "examples": [
+            "height",
+            "width",
+            "depth",
+            "diameter",
+            "weight",
+            "circumference",
+            "radius",
+            "trade",
+            "size"
+        ],
+        "use": "As many times as required for an object.",
+        "dimension_measured_part": {
+            "definition": "The part of an object measured.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "base",
+                "frame",
+                "mount"
+            ],
+            "use": "Record once only for a Dimension."
+        },
+        "dimension_value": {
+            "definition": "The numeric value of the measurement of a Dimension.",
+            "how_to_record": "A number, without punctuation other than a decimal point where required. The value should be to the nearest point of detail dictated by the type of object and the needs of the procedure and the organisation.",
+            "examples": [
+                "987",
+                "0.234"
+            ],
+            "use": "Record once only for a Dimension.",
+            "dimension_value_date": {
+                "definition": "The date on which the Dimension value was recorded.",
+                "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Record all four digits for the year. This information is of particular importance to record changes during conservation.",
+                "examples": [
+                    "08/10/1990",
+                    "06/1972",
+                    "1899",
+                    "2017-12-17"
+                ],
+                "use": "Record once only for a Dimension value."
+            }
+        },
+        "dimension_measurement_unit": {
+            "definition": "The unit of measurement used when measuring a Dimension.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation, or use a standard abbreviation. Maintain a list of standard terms. The organisation should decide which are the standard units for different dimensions and types of object.",
+            "examples": [
+                "m",
+                "mm",
+                "inches",
+                "troy",
+                "grains"
+            ],
+            "use": "Record once only for a Dimension."
+        },
+        "dimension_value_qualifier": {
+            "definition": "The measurement of statistical deviation given for a dimension. If left blank, the assumption is that the dimension accuracy recorded is thought to be correct. Do not use capitalisation or punctuation.",
+            "how_to_record": "Use the standard statistical notation",
+            "examples": [
+                "+ or \u2013 150",
+                "approximate",
+                "to the nearest cm"
+            ],
+            "use": "Record once only for the Dimension recorded if there is any uncertainty."
+        }
+    },
+    "edition_number": {
+        "definition": "A number assigned to a group of objects produced at the same time by the maker.",
+        "how_to_record": "Record information about the number and nature of a limited edition or special run, eg prints or casts, of which an object is one. Use Copy number to record a number given to an individual object in a production run.",
+        "examples": [
+            "5th edition, 1993 release."
+        ],
+        "use": "Record once only for an object."
+    },
+    "form": {
+        "definition": "The method used to mount or preserve a specimen.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "dry",
+            "thin section",
+            "pinned",
+            "wet"
+        ],
+        "use": "Record more than once for an object only if more than one Form applies."
+    },
+    "inscription_content": {
+        "definition": "The text inscribed as part of the decoration or construction of an object recorded in the original language.",
+        "how_to_record": "The alphanumeric text, in its original language, inscribed on an object as part of the decoration or construction of the object.",
+        "examples": [
+            "Greetings from Cowes / Isle of Wight"
+        ],
+        "use": "Record once only for each separate inscription on an object.",
+        "inscriber": {
+            "definition": "The People, Person or Organisation responsible for inscribing an object.",
+            "how_to_record": "It will be necessary to use several units of information, including for example, for a Person, a surname and a forename. The descriptions for these information units are gathered together under the People, Person or Organisation headings as appropriate. The organisation may have standard forms of names for use.",
+            "examples": [
+                "See under People, Person or Organisation."
+            ],
+            "use": "As many times as required for an Inscription content or Inscription description."
+        },
+        "inscription_date": {
+            "definition": "The date on which an inscription was made.",
+            "how_to_record": "It may be necessary to use more than one unit of information to describe this date, eg a range of dates or a textual expression of the date as well as the production stage which the date is related to. Descriptions of these units of information are gathered together under the Date heading. Use Date \u2013 period to record non-numeric dates and eras relating to an object\u2019s production.",
+            "examples": [
+                "As for Date."
+            ],
+            "use": "Record as required when recording Inscription units of information."
+        },
+        "inscription_description": {
+            "definition": "A description of non-textual marks inscribed on an object.",
+            "how_to_record": "Use normal grammar and punctuation. Note its shape, size and content.",
+            "examples": [
+                "Triangle in circle, approximately half an inch in diameter."
+            ],
+            "use": "Record once only for an Inscription content."
+        },
+        "inscription_interpretation": {
+            "definition": "The interpretation of an inscription or mark on an object.",
+            "how_to_record": "Use normal grammar and punctuation.",
+            "examples": [
+                "The symbol of the \u2018fish\u2019 is derived from the scriptures as \u2018fishers of men\u2019 and from the Greek word for \u2018fish\u2019 and Jesus Christ both of which shared the same first two letters."
+            ],
+            "use": "Required in association with Inscription content and Inscription description."
+        },
+        "inscription_language": {
+            "definition": "The language used in a textual inscription on an object.",
+            "how_to_record": "Use a single term, using punctuation only where it forms a part of the name and capitalisation for proper names. Maintain a list of standard terms.",
+            "examples": [
+                "French",
+                "Japanese"
+            ],
+            "use": "As many times as required for an Inscription content."
+        },
+        "inscription_method": {
+            "definition": "The method used to inscribe a mark or text on an object.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "incised",
+                "painted"
+            ],
+            "use": "As many times as required for an Inscription content or Inscription description."
+        },
+        "inscription_position": {
+            "definition": "A term describing the position of an inscription on an object.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "base",
+                "inside",
+                "rim",
+                "back",
+                "left"
+            ],
+            "use": "Record once only for each occurrence of the inscription on an object."
+        },
+        "inscription_script": {
+            "definition": "The script used in a textual inscription on an object.",
+            "how_to_record": "Use a single term, using punctuation only where it forms a part of the name and initial capitalisation for proper names. Maintain a list of standard terms.",
+            "examples": [
+                "Cyrillic",
+                "Glagolitic"
+            ],
+            "use": "As many times as required for an Inscription content."
+        },
+        "inscription_translation": {
+            "definition": "A translation into the organisation\u2019s first language of a textual inscription on an object.",
+            "how_to_record": "Use equivalent grammar and punctuation to that in the original language.",
+            "examples": [
+                "Cast in Italy."
+            ],
+            "use": "As many times as required for an Inscription content."
+        },
+        "inscription_transliteration": {
+            "definition": "The transliteration of a textual inscription on an object.",
+            "how_to_record": "Record using the exact equivalent grammar and punctuation used in the original language.",
+            "examples": [
+                "Lusippos epoiese"
+            ],
+            "use": "As many times as required for an Inscription content or Inscription description."
+        },
+        "inscription_type": {
+            "definition": "The form or function of the inscription.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms. Note if the form or function of the mark or inscription is unclear.",
+            "examples": [
+                "brand",
+                "decoration",
+                "estate stamp",
+                "label",
+                "maker\u2019s mark",
+                "graffiti"
+            ],
+            "use": "As many times as required for an Inscription content or Inscription description."
+        }
+    },
+    "material": {
+        "definition": "The basic materials and media from which an object is constructed.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms. Describe the medium and support of \u20182 dimensional\u2019 works. Do not describe surface coatings (eg varnish on paintings) unless they are of special interest. Do not include brand names.",
+        "examples": [
+            "wood",
+            "tempered steel",
+            "canvas",
+            "ebony",
+            "oil"
+        ],
+        "use": "As many times as required for an object.",
+        "material_component": {
+            "definition": "A significant component, inclusion or trace in the material of which an object or specimen is made. This could also include a patina or corrosion product which has developed on an object and is of sufficient significance to require documenting.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms. The organisation should decide whether to use chemical abbreviations or full names, eg Cu or copper",
+            "examples": [
+                "shell tempering",
+                "carbon",
+                "textile",
+                "mineralised"
+            ],
+            "use": "One or more times depending on how many material components are needed to record an object. Only significant components of objects that have undergone scientific examination and analysis should be recorded."
+        },
+        "material_component_note": {
+            "definition": "To record further information about a Material component.",
+            "how_to_record": "Use normal grammar and punctuation.",
+            "examples": [
+                "Crushed shell, irregular, range 1-2.5mm."
+            ],
+            "use": "Record if necessary for a Material component."
+        },
+        "material_name": {
+            "definition": "The name commonly used to designate a particular or characteristic material, and additional to or further defining the basic material itself. This may be the vernacular or generally used name for a certain type of material or a brand name.",
+            "how_to_record": "As it is commonly used.",
+            "examples": [
+                "St Neot\u2019s-type ware",
+                "latten",
+                "Cistercian ware"
+            ],
+            "use": "Record where necessary for an object."
+        },
+        "material_source": {
+            "definition": "The geographical origin of naturally occurring vegetable, animal or geological materials which either have been used to form an object or form specimens or deposits in their own right eg a quarry source for stone, country of origin of timber, geological outcrop for imported stone or fossil. (Note that this is separate from Object production place which is where the original materials are modified by human intervention to form an object).",
+            "how_to_record": "It will be necessary to use several units of information, including for example, a village name or a country name, as well as the production stage with which the Place is associated. The descriptions for these information units are gathered together under the Place heading.",
+            "examples": [
+                "See under Place."
+            ],
+            "use": "As many times as required for a Material."
+        }
+    },
+    "object_status": {
+        "definition": "A statement of the standing of a natural science specimen or other object in relation to others in existence.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "type",
+            "paratype",
+            "holotype",
+            "paralectotype",
+            "copy",
+            "forgery"
+        ],
+        "use": "Record once only for an object."
+    },
+    "phase": {
+        "definition": "A textual expression of the age or developmental phase of a natural science specimen.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "adult",
+            "imago",
+            "larva",
+            "nymph",
+            "pupa"
+        ],
+        "use": "Record once only for a specimen."
+    },
+    "physical_description": {
+        "definition": "General visual appearance of an object.",
+        "how_to_record": "Use normal grammar and punctuation. Include a description of an object\u2019s completeness if appropriate (eg lacks left arm). Comment on condition only as it affects completeness. Describe items which would be made using an object, eg clothing from paper patterns. The frame and mount should also be described if appropriate. The following issues might be addressed: What shape or form does it take? Describe an object in reference to the direction the work faces (ie a sculpture\u2019s right side (proper right) not as the viewer). Do not use \u2018sinister\u2019 or \u2018dexter\u2019. Where and how is it decorated? How is it mounted? How is it constructed? What colours have been used? What scale is used?",
+        "examples": [
+            "A draped figure of a woman stands with her arms out-stretched."
+        ],
+        "use": "Record once only for an object."
+    },
+    "sex": {
+        "definition": "The gender of an animal specimen.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "male",
+            "female",
+            "hermaphrodite",
+            "androgynous",
+            "unknown"
+        ],
+        "use": "Record once only for a specimen."
+    },
+    "style": {
+        "definition": "Styles or schools relating to an object.",
+        "how_to_record": "Use a single term, using punctuation only where it forms a part of the name and capitalisation for proper names. Maintain a list of standard terms. Styles can be based on historical or geographical grounds, among others.",
+        "examples": [
+            "Fauve",
+            "Gothic",
+            "Maruyama School",
+            "Staffordshire",
+            "Romanesque"
+        ],
+        "use": "As many times as required for an object."
+    },
+    "technical_attribute": {
+        "definition": "A technical attribute possessed by an object which can be described and/or quantified.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "magnetic tape type",
+            "record speed",
+            "light bulb wattage"
+        ],
+        "use": "As many times as required for an object."
+    },
+    "technical_attribute_measurement": {
+        "definition": "The measurement of a named Technical attribute.",
+        "how_to_record": "Use a number or term, using punctuation and capitalisation only where integral. Maintain a standard set of terms.",
+        "examples": [
+            "metal",
+            "78",
+            "60"
+        ],
+        "use": "Record once only for a Technical attribute.",
+        "technical_attribute_measurement_unit": {
+            "definition": "The unit of measurement used when measuring a Technical attribute.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation, or use a standard abbreviation. Maintain a list of standard terms. The organisation should decide which are the standard units for different attributes and types of object.",
+            "examples": [
+                "rpm",
+                "watt"
+            ],
+            "use": "Record once only for a Technical attribute measurement if required."
+        }
+    },
+    "object_component_name": {
+        "definition": "The non-separable part or component of an object which is being described.",
+        "how_to_record": "Use a single term. Maintain a list of standard terms, based on a recognised terminology source. Use the same sources of terminology as for recording Object name.",
+        "examples": [
+            "sleeve",
+            "handle",
+            "blade",
+            "buttonhole"
+        ],
+        "use": "Use Object component name to indicate which non-separable and therefore un-numbered part of an object is being described. When describing separable and separately numbered parts of an object, use Object number to record the number of the part and create a new record related to that number. Use Object component information to identify the unit of information describing the Object component name.",
+        "object_component_information": {
+            "definition": "The unit of information describing an Object component name.",
+            "how_to_record": "Use single terms without punctuation to name the unit of information describing the Object component name. Maintain a list of standard terms.",
+            "examples": [
+                "Object production person",
+                "Material",
+                "Technique"
+            ],
+            "use": "As many times as required for an Object component name. The system will need to link the unit of information specified with the Object component name."
+        }
+    }
+}

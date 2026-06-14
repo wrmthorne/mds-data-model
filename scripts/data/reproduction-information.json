@@ -1,0 +1,99 @@
+{
+    "reproduction_number": {
+        "definition": "A unique identifier for the reproduction.",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number. Some museums use this unit to record the full name of digital files, following an agreed system.",
+        "examples": [
+            "N1234-1993",
+            "R-2017-0017",
+            "12022013_adawson_0001.jpg"
+        ],
+        "use": "Record once for each reproduction."
+    },
+    "current_reproduction_location": {
+        "definition": "The current location of a reproduction.",
+        "how_to_record": "Use a single term or code. Maintain a list of standard terms or codes. Ensure that all locations can be specifically described with unique terms.",
+        "examples": [
+            "U.23.2.4a, case 3, shelf 4",
+            "N:/images/1955/3"
+        ],
+        "use": "Record once for a reproduction, or part of a reproduction."
+    },
+    "reproduction_creator": {
+        "definition": "The name of the Person or Organisation who created a reproduction.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname, a forename and an address. The descriptions for these information units are gathered together under the Person or Organisation headings as appropriate.",
+        "examples": [
+            "See under Person or Organisation as appropriate."
+        ],
+        "use": "Record once only for each reproduction."
+    },
+    "reproduction_date": {
+        "definition": "The date on which a reproduction was created.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+        "examples": [
+            "17/12/2017",
+            "2018-08-04"
+        ],
+        "use": "Record once only for a reproduction."
+    },
+    "reproduction_description": {
+        "definition": "A description of features which could uniquely identify a reproduction.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Detail of decoration",
+            "Object being demonstrated"
+        ],
+        "use": "Record once only for a reproduction."
+    },
+    "reproduction_format": {
+        "definition": "The analogue format or digital file format of the reproduction.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "35mm",
+            "Super 8",
+            "TIFF",
+            "JPEG",
+            "MP3"
+        ],
+        "use": "Record once only for a reproduction."
+    },
+    "reproduction_status": {
+        "definition": "The status of a reproduction, especially among multiple copies.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "master",
+            "backup",
+            "working copy"
+        ],
+        "use": "Record once only for a reproduction."
+    },
+    "reproduction_type": {
+        "definition": "The medium of the reproduction.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "digital image",
+            "cast",
+            "analogue photograph",
+            "digital audio"
+        ],
+        "use": "Record once only for a reproduction."
+    },
+    "reproduction_reason": {
+        "definition": "The reason why a reproduction is being created.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "exhibition",
+            "website",
+            "publication",
+            "conservation"
+        ],
+        "use": "Record once only for a reproduction."
+    },
+    "reproduction_requester": {
+        "definition": "The name of the Person or Organisation who requested the reproduction to be made.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname, a forename and an address. The descriptions for these information units are gathered together under the Person or Organisation headings as appropriate.",
+        "examples": [
+            "See under Person or Organisation as appropriate."
+        ],
+        "use": "Record once for a reproduction."
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "reference": {
+        "definition": "Details of a bibliographic or other reference to an object. The reference can be in any media eg published, unpublished, audio, video, computer record.",
+        "how_to_record": "Use a standard short description format agreed by the organisation.",
+        "examples": [
+            "The citation order for books and journals in:"
+        ],
+        "use": "As many times as required for an object."
+    },
+    "reference_author_editor": {
+        "definition": "The Person or Organisation responsible for the intellectual content of a referenced work.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, for a Person, a surname and a forename. The descriptions for these information units are gathered together under the Person or Organisation headings as appropriate. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person or Organisation as appropriate."
+        ],
+        "use": "As many times as required."
+    },
+    "reference_association": {
+        "definition": "A single term describing the nature of the relationship between the Reference and an object.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "cited",
+            "figured",
+            "utilised",
+            "illustrated"
+        ],
+        "use": "As many times as required for a Reference."
+    },
+    "reference_details": {
+        "definition": "Details, pages, and illustrations of a bibliographic reference.",
+        "how_to_record": "Use the organisation\u2019s agreed form of recording.",
+        "examples": [
+            "pp200-204",
+            "fig.21",
+            "map 5"
+        ],
+        "use": "Once only for a Reference."
+    },
+    "reference_note": {
+        "definition": "Details of the specific nature of the relevance of the Reference to the object, including an abstract if required.",
+        "how_to_record": "Use normal grammar and punctuation. The reference may be to a published, or unpublished film, sound or reproduction source.",
+        "examples": [
+            "Discusses the collection in the light of disputes on attribution recently raised in Holland."
+        ],
+        "use": "Record once only for a Reference."
+    },
+    "reference_number": {
+        "definition": "A number or identifier unique to a Reference.",
+        "how_to_record": "Use any reference number providing access to the work either in the organisation, local library or other source. For reference only appearing on the world wide web use the URL.",
+        "examples": [
+            "93.AA.123",
+            "0550102345",
+            "http://www.mda.org.uk/acc.htm"
+        ],
+        "use": "Record once only for a Reference."
+    },
+    "reference_publication_date": {
+        "definition": "The Date when a referenced work was published.",
+        "how_to_record": "Always give all four digits for the year. Use a standard form if more detail is recorded.",
+        "examples": [
+            "2005",
+            "1984",
+            "1715"
+        ],
+        "use": "Record once only."
+    },
+    "reference_publication_place": {
+        "definition": "The Place where a referenced work was published.",
+        "how_to_record": "Use the name of the city or other locality.",
+        "examples": [
+            "New York",
+            "London",
+            "Cambridge"
+        ],
+        "use": "As many as required by the Reference."
+    },
+    "reference_publisher": {
+        "definition": "The Organisation or Person responsible for the publication of a referenced work.",
+        "how_to_record": "Use the form as appears on in the referenced work.",
+        "examples": [
+            "MDA",
+            "Oxford University Press"
+        ],
+        "use": "Record as many times as required."
+    },
+    "reference_title": {
+        "definition": "The title of a referenced work.",
+        "how_to_record": "Use the form as appears in the referenced work.",
+        "examples": [
+            "Spectrum: The UK Museum Documentation Standard"
+        ],
+        "use": "Record once only."
+    },
+    "reference_type": {
+        "definition": "A term describing the nature of the Reference.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "film",
+            "sound recording",
+            "published book"
+        ],
+        "use": "As many times as required for a Reference."
+    },
+    "document_location": {
+        "definition": "Where a referenced document is stored in an organisation\u2019s documentation system.",
+        "how_to_record": "Use a single term or code. Maintain a list of standard terms or codes. Ensure that all locations can be specifically described with unique terms.",
+        "examples": [
+            "Room 153, Cabinet 3, Drawer 4",
+            "C:Documentsloan-documentationLoan-2003-03"
+        ],
+        "use": "Record once only for a referenced document."
+    },
+    "catalogue_number": {
+        "definition": "The number assigned to an object in an exhibition catalogue.",
+        "how_to_record": "Exactly as given in the catalogue, using the same capitalisation and punctuation.",
+        "examples": [
+            "A123 76"
+        ],
+        "use": "Record once only for a reference if required."
+    }
+}

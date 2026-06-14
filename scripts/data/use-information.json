@@ -1,0 +1,195 @@
+{
+    "credit_line": {
+        "definition": "Text acknowledging a donation or loan, normally used on a display label.",
+        "how_to_record": "As agreed with the donor or lender, using normal grammar and punctuation.",
+        "examples": [
+            "Donated by Ms B. Smith, Sydney, Australia."
+        ],
+        "use": "Record once only for an object at any one time."
+    },
+    "use_status": {
+        "definition": "The stage in the Use of collections procedure which an individual object, or reproduction, to be used, has reached.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "requested",
+            "authorised",
+            "agreed",
+            "conservation",
+            "photography"
+        ],
+        "use": "Record once only for the use of object or reproduction. Previous Use statuses may be retained, but should be associated with the Use status date in order to identify the current Use status.",
+        "use_status_date": {
+            "definition": "The date on which a Use status was recorded.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+            "examples": [
+                "17/12/2017",
+                "2018-08-04"
+            ],
+            "use": "Record once only for a Use status."
+        }
+    },
+    "text_reference_number": {
+        "definition": "The unique identifier for a text.",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number.",
+        "examples": [
+            "TXT1234-1993",
+            "TXT-2017-0017"
+        ],
+        "use": "Record once for Text."
+    },
+    "text": {
+        "definition": "A piece of interpretive text, or label, which was created for a use of an object or group of objects.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "COPPER KETTLE, 1860s. This kettle was used in the main kitchen of Andale Hall. Donated by Mr. John Evans."
+        ],
+        "use": "As many times as required for an object.",
+        "text_audience": {
+            "definition": "The type of person that the text was created for.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "general public",
+                "French speakers",
+                "school students"
+            ],
+            "use": "As many times as required for a Text."
+        },
+        "text_author": {
+            "definition": "The Person or Organisation who created the text.",
+            "how_to_record": "It will be necessary to use several units of information, including, for example, a surname and a forename. The descriptions for these information units are gathered together under the Person or Organisation heading. You should have standard forms of names for use.",
+            "examples": [
+                "See under Person or Organisation as appropriate."
+            ],
+            "use": "Record as many times as necessary for a Text."
+        },
+        "text_date": {
+            "definition": "The date on which a text was created.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+            "examples": [
+                "17/12/2017",
+                "2018-08-04"
+            ],
+            "use": "Record once only for a Text."
+        },
+        "text_language": {
+            "definition": "The language of the text.",
+            "how_to_record": "Use a single term to identify the language used in the text of a label. Do not use punctuation except where it forms an integral part of the name of a language. Use initial capitals only for proper names.",
+            "examples": [
+                "French",
+                "English",
+                "Fr",
+                "En"
+            ],
+            "use": "As many times as required for a Text."
+        },
+        "text_note": {
+            "definition": "Information about a text that is not recorded elsewhere.",
+            "how_to_record": "Use normal grammar and punctuation.",
+            "examples": [
+                "This text should only be used with in-house displays."
+            ],
+            "use": "Record once only for a Text."
+        },
+        "text_reason": {
+            "definition": "The reason why a text was created.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "website",
+                "exhibition",
+                "publication"
+            ],
+            "use": "As many times as required for a Text."
+        }
+    },
+    "use_measurement_type": {
+        "definition": "The type of measurement being recorded in association with a use of an object.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "exhibition visitors",
+            "object viewers",
+            "light exposure",
+            "object uses"
+        ],
+        "use": "Record as many times as necessary for a use."
+    },
+    "use_measurement_value": {
+        "definition": "The numeric value of a measurement associated with a use.",
+        "how_to_record": "A number, without punctuation other than a decimal point where required.",
+        "examples": [
+            "987",
+            "0.234",
+            "300",
+            "12000"
+        ],
+        "use": "Record once for a use measurement.",
+        "use_measurement_value_unit": {
+            "definition": "The unit of measurement used with a Use measurement value.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation, or use a standard abbreviation. Maintain a list of standard terms. You organisation should decide which are the standard units for different measurements and types of object.",
+            "examples": [
+                "lux hour"
+            ],
+            "use": "Record once for a Use measurement value."
+        },
+        "use_measurement_value_qualifier": {
+            "definition": "The accuracy of a Use measurement value.",
+            "how_to_record": "If left blank, the assumption is that the Use measurement value recorded is thought to be correct. Do not use capitalisation or punctuation.",
+            "examples": [
+                "over",
+                "under",
+                "approximately",
+                "circa",
+                "+ or \u2013 150"
+            ],
+            "use": "Record once for a Use measurement value."
+        }
+    },
+    "use_measurement_date": {
+        "definition": "The date on which the Use measurement value was recorded.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Record all four digits for the year.",
+        "examples": [
+            "2017-08",
+            "06/1972",
+            "2018-10-04",
+            "4/10/2018"
+        ],
+        "use": "Record once only for a Use measurement value."
+    },
+    "use_note": {
+        "definition": "Additional information about the use which has not been recorded elsewhere using controlled terminology. This could include an object\u2019s operations log.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Demonstrated at Bridlington Car Rally to mark 50th anniversary of its invention."
+        ],
+        "use": "As many times as required for a use event."
+    },
+    "use_restriction": {
+        "definition": "A record of the restrictions on the use to an object or group of objects.",
+        "how_to_record": "Use a single term or code. Maintain a list of standard terms or codes.",
+        "examples": [
+            "1",
+            "2",
+            "A",
+            "B",
+            "restricted",
+            "staff only"
+        ],
+        "use": "Record once only for an object at any one time. Previous Use restrictions may be retained, but should be associated with a Use restriction date in order to identify the current Use restriction.",
+        "use_restriction_date": {
+            "definition": "The date on which a Use restriction was recorded.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+            "examples": [
+                "17/12/2017",
+                "2018-08-04"
+            ],
+            "use": "Record once only for a Use restriction."
+        },
+        "use_restriction_note": {
+            "definition": "Additional information about the Use restriction of an object which has not been recorded elsewhere using controlled terminology.",
+            "how_to_record": "Use normal grammar and punctuation.",
+            "examples": [
+                "Researchers allowed access only under supervised conditions."
+            ],
+            "use": "Record once only for a Use restriction."
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "right_reference_number": {
+        "definition": "A unique number identifying a right.",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number.",
+        "examples": [
+            "R1993.123"
+        ],
+        "use": "Record once only for a right."
+    },
+    "right_type": {
+        "definition": "The specific type of right being recorded in relation to an object, reproduction, or text.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "copyright",
+            "publication rights",
+            "data protection right"
+        ],
+        "use": "Record once only for each type of right residing in an item."
+    },
+    "right_holder": {
+        "definition": "The holder of the right associated with an object, reproduction, or text.",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, a surname, a forename and an address. The descriptions for these information units are gathered together under the People, Person or Organisation headings as appropriate.",
+        "examples": [
+            "See under People, Person or Organisation as appropriate."
+        ],
+        "use": "More than one Right holder can be recorded, if the rights are jointly held.",
+        "right_holders_contact": {
+            "definition": "The Organisation or Person designated by the Right holder to be responsible for dealing with rights on their behalf.",
+            "how_to_record": "It will be necessary to use several units of information, including, for example, a surname and a forename. The descriptions for these information units are gathered together under the Organisation or Person heading. You should have standard forms of names for use.",
+            "examples": [
+                "See under Organisation or Person."
+            ],
+            "use": "Record once only for a Right holder."
+        }
+    },
+    "right_begin_date": {
+        "definition": "The first date on which a right is current.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+        "examples": [
+            "08/10/1993",
+            "2017-12-17"
+        ],
+        "use": "Record once only for a right."
+    },
+    "right_end_date": {
+        "definition": "The last date on which a right is current.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+        "examples": [
+            "08/10/1993",
+            "2017-12-17"
+        ],
+        "use": "Record once only for a right."
+    },
+    "right_note": {
+        "definition": "Any details of the right not covered elsewhere.",
+        "how_to_record": "Use normal spelling and punctuation. Record, for example, the copyright status of the original painting, where the organisation holds copyright of a photograph of it.",
+        "examples": [
+            "Organisation holds right to use the photograph for its internal purposes only. Copyright for the original painting belongs to artist."
+        ],
+        "use": "Record once only for an object."
+    }
+}

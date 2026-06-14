@@ -1,0 +1,169 @@
+{
+    "acquisition_reference_number": {
+        "definition": "A unique identifying number for information on the acquisition of an object or group of objects. It should serve as the reference to written documentation of a valuation. This will normally be the object number.",
+        "how_to_record": "May include a year and a running number. See Object number.",
+        "examples": [
+            "1993.123"
+        ],
+        "use": "The same Acquisition reference number can be used for one or more objects acquired together."
+    },
+    "accession_date": {
+        "definition": "The date on which an object formally enters the collections and is recorded in the accessions register.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+        "examples": [
+            "08/10/1993",
+            "2017-12-17"
+        ],
+        "use": "Record once only for an object or group of objects."
+    },
+    "acquisition_authoriser": {
+        "definition": "The Person giving final approval for the acquisition to proceed.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Record once only for an object or group of objects.",
+        "acquisition_authorisation_date": {
+            "definition": "The date on which the Acquisition authoriser gives final approval for an acquisition to proceed.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "08/10/1993",
+                "2017-12-17"
+            ],
+            "use": "Record once only for an object or group of objects."
+        }
+    },
+    "acquisition_date": {
+        "definition": "The date on which title to an object or group of objects is transferred to the organisation.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Record all four digits for the year.",
+        "examples": [
+            "08/10/1990",
+            "06/1972",
+            "1899",
+            "2017-12-17"
+        ],
+        "use": "Record once only, except in exceptional circumstances where title is transferred in stages."
+    },
+    "acquisition_funding": {
+        "definition": "The funding used to support the acquisition of an object.",
+        "how_to_record": "Use local currency. Convert any non-local currency into local, using the exchange rate at date of acquisition. Use Acquisition note to record details of non-local currency paid.",
+        "examples": [
+            "750.00"
+        ],
+        "use": "Use in association with Group purchase price and Object purchase price.",
+        "acquisition_funding_source": {
+            "definition": "The Person or Organisation from whom the Acquisition funding was obtained.",
+            "how_to_record": "It will be necessary to use several units of information, including for example, for a Person, a surname, a forename and an address. The descriptions for these information units are gathered together under the Person or Organisation headings as appropriate.",
+            "examples": [
+                "See under Person or Organisation as appropriate."
+            ],
+            "use": "Record once only for Acquisition funding.",
+            "acquisition_funding_source_provisos": {
+                "definition": "Restrictions applying to all the objects acquired with the support from an Acquisition funding source.",
+                "how_to_record": "Use normal grammar and punctuation.",
+                "examples": [
+                    "Objects purchased with funding source\u2019s support to be displayed with credit line acknowledging the funding source."
+                ],
+                "use": "Record once only for an Acquisition funding."
+            }
+        }
+    },
+    "acquisition_method": {
+        "definition": "The means by which title to an object is formally transferred to the organisation.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "gift",
+            "purchase"
+        ],
+        "use": "Record once only for an object or group of objects."
+    },
+    "acquisition_note": {
+        "definition": "General information about the acquisition.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Offered by the vendor at a reduced price."
+        ],
+        "use": "Record once only for an object or group of objects."
+    },
+    "acquisition_provisos": {
+        "definition": "Restrictions applying to the objects in a single acquisition, including conditions for deposition of archaeological archives.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Donor to have access on request. Not to be driven."
+        ],
+        "use": "Record once only for an object or group of objects."
+    },
+    "acquisition_reason": {
+        "definition": "The reason or justification for an acquisition.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "This engine is still in working condition and is one of only three still known to exist."
+        ],
+        "use": "Record once only for an object or group of objects."
+    },
+    "acquisition_source": {
+        "definition": "The People, Person or Organisation from whom an object was obtained, if different from the Owner. The Acquisition source may be an agent or other intermediary between the acquiring organisation and the Owner. For archaeological archives, use Acquisition source to record the excavating body responsible for preparing and depositing the archive with the organisation.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, for a Person, a surname, a forename and an address. The descriptions for these information units are gathered together under the People, Person or Organisation headings as appropriate.",
+        "examples": [
+            "See under People, Person or Organisation as appropriate."
+        ],
+        "use": "Record once only for an object or group of objects."
+    },
+    "group_purchase_price": {
+        "definition": "The total price paid for a group of objects at acquisition, including taxes for which the purchase is liable. If individual prices are known for specific objects in the group, use Object acquisition price.",
+        "how_to_record": "Use local currency. Convert any non-local currency into local, using the exchange rate at date of acquisition. Use Acquisition note to record details of non-local currency paid.",
+        "examples": [
+            "750.00"
+        ],
+        "use": "A Group purchase price can be used for a number of objects, but any object can only have a single Group purchase price."
+    },
+    "object_offer_price": {
+        "definition": "The price at which an object is offered for sale to the organisation.",
+        "how_to_record": "Use local currency. Convert any non-local currency into local, using the exchange rate at date of acquisition. Use Acquisition note to record details of non-local currency offered.",
+        "examples": [
+            "750.00"
+        ],
+        "use": "An object can only have one Object offer price recorded at any one time."
+    },
+    "object_purchaser_offer_price": {
+        "definition": "The price which the organisation offers for the purchase of an object.",
+        "how_to_record": "Use local currency. Convert any non-local currency into local, using the exchange rate at date of acquisition. Use Acquisition note to record details of non-local currency offered.",
+        "examples": [
+            "750.00"
+        ],
+        "use": "An object can only have one Object purchase offer price recorded at any one time."
+    },
+    "object_purchase_price": {
+        "definition": "The total price paid for an object at acquisition, including taxes for which the purchase is liable. Associated with the Object number. If no individual prices are known for specific objects in the group (eg a lot bought at auction), use Group purchase price.",
+        "how_to_record": "Use local currency. Convert any non-local currency into local, using the exchange rate at date of acquisition.",
+        "examples": [
+            "750.00"
+        ],
+        "use": "An object can only have one Object purchase price recorded."
+    },
+    "original_object_purchase_price": {
+        "definition": "The price paid for an object in the original currency at the time of purchase.",
+        "how_to_record": "The cost of an object in the original currency using punctuation as required within the figure recorded.",
+        "examples": [
+            "750.00"
+        ],
+        "use": "Record once only for an object.",
+        "original_object_purchase_price_denomination": {
+            "definition": "The denomination or currency of the Original object purchase price.",
+            "how_to_record": "Use a single term, using punctuation only where it forms a part of the term and capitalisation for proper names. Maintain a list of standard terms.",
+            "examples": [
+                "American dollars",
+                "Japanese yen"
+            ],
+            "use": "Record once only for an Original object purchase price."
+        }
+    },
+    "transfer_of_title_number": {
+        "definition": "A unique identifying number for a transfer of title or acquisition event. It should serve as the reference to written documentation of a transfer of title or acquisition process. The number may be assigned to a transfer of title form.",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number.",
+        "examples": [
+            "T1993.123"
+        ],
+        "use": "The same Transfer of title number can be used for one or more objects acquired together, but an object can only have one Transfer of title number."
+    }
+}

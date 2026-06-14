@@ -1,0 +1,27 @@
+[project]
+name = "mds-data-model"
+version = "0.1.0"
+description = "A data model, derived from Spectrum 5.1 to match, and then further constrain, the MDS interpretation of it. "
+readme = "README.md"
+authors = [
+    { name = "William Thorne", email = "wthorne1@sheffield.ac.uk" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic[email]>=2.13.4",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["uv_build>=0.11.14,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "lxml>=6.1.1",
+    "pytest>=9.1.0",
+    "tenacity>=9.1.4",
+]

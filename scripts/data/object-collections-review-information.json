@@ -1,0 +1,53 @@
+{
+    "collections_review_criterion": {
+        "definition": "The criterion of a collections review that is being recorded.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "relevant to collecting policy",
+            "historical significance",
+            "display potential",
+            "educational potential",
+            "research potential",
+            "documentation status",
+            "condition",
+            "duplicate"
+        ],
+        "use": "Record once only for an object or group of objects reviewed."
+    },
+    "collections_review_result": {
+        "definition": "The result of a collections review for an object or group of objects for a Collections review criterion.",
+        "how_to_record": "Use a single term. Maintain a list of standard terms.",
+        "examples": [
+            "1",
+            "2",
+            "3",
+            "A",
+            "B",
+            "C",
+            "poor",
+            "good",
+            "yes",
+            "no"
+        ],
+        "use": "Record once only for a Collections review criterion.",
+        "collections_review_result_date": {
+            "definition": "The date on which an Collections review result was given to an object or group of objects.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate a component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "17/12/2017",
+                "2018-08-04"
+            ],
+            "use": "Record once only for an Collections review result."
+        }
+    },
+    "collections_review_action": {
+        "definition": "The action to be taken to an object or group of objects as a result of a collections review.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "consider for disposal",
+            "conservation work needed",
+            "research needed"
+        ],
+        "use": "Record once only for an object or group of objects reviewed."
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "process_reference_number": {
+        "definition": "\nA unique identifying number for the process carried out on an object or group of objects. It should serve as the reference to written documentation of a process.\n",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number.",
+        "examples": [
+            "P1993.123"
+        ],
+        "use": "The same Process reference number can be used for one or more objects processed together."
+    },
+    "process_date": {
+        "definition": "\nThe date on which a process is completed.\n",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Record all four digits for the year.",
+        "examples": [
+            "08/10/1990",
+            "06/1972",
+            "1899",
+            "2017-12-17"
+        ],
+        "use": "Record once only for a Process."
+    },
+    "process_method": {
+        "definition": "\nThe method used to carry out the process on an object.\n",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "alteration",
+            "preparation",
+            "radiocarbon dating",
+            "automated species identification"
+        ],
+        "use": "Record more than once for an object only if more than one method applies."
+    },
+    "process_note": {
+        "definition": "\nAdditional information about the process of an object which has not been recorded elsewhere using controlled terminology.\n",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Framed for Francis Towne exhibition at the Tate Gallery."
+        ],
+        "use": "Record once only for a process event."
+    },
+    "process_person_organisation": {
+        "definition": "\nThe Person or Organisation responsible for carrying out a process on an object.\n",
+        "how_to_record": "It will be necessary to use several units of information, including for example, for a Person, a surname and a forename. The descriptions for these information units are gathered together under the Person or Organisation headings as appropriate. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person or Organisation."
+        ],
+        "use": "As many times as required for a process event."
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "location_reference_name_number": {
+        "definition": "A unique name, number, or identifier for a display or storage Location. It can also apply to a Location on a computer system used for digital objects.",
+        "how_to_record": "Must be of sufficient and appropriate detail to locate any object precisely and may be expressed as a hierarchy (e.g. building/room/case) or using a classification system if items are stored in strict classified order.",
+        "examples": [
+            "Annex 1 Store",
+            "G58",
+            "c:objects2005"
+        ],
+        "use": "Record once only for a location."
+    },
+    "location_type": {
+        "definition": "The nature or category of a Location.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "display",
+            "storage",
+            "external"
+        ],
+        "use": "Record once only at any time for any Location."
+    },
+    "location_address": {
+        "definition": "The address of a Location where it is not to be found on the main site of an organisation.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a building name, street name and town/city. The descriptions for these information units are gathered together under the Address heading.",
+        "examples": [
+            "See under Address."
+        ],
+        "use": "Record once only for any one Location."
+    },
+    "location_access_note": {
+        "definition": "Information about the access to a specific Location.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Height of entrance to gallery 7 feet. Object hoist will not fit through the door and manual help will be required to move heavy objects."
+        ],
+        "use": "Record once only for any Location."
+    },
+    "location_condition_note": {
+        "definition": "Information about the condition of the location, including such as the environmental conditions or state of cleanliness.",
+        "how_to_record": "Use normal grammar and punctuation. To record the suitability of an object to a location, use Current location fitness.",
+        "examples": [
+            "Walls damp, window broken."
+        ],
+        "use": "The Location condition note may be repeated in association with Location condition note date to provide a history of conditions.",
+        "location_condition_note_date": {
+            "definition": "The date on which Location condition note was recorded.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Record all four digits for the year.",
+            "examples": [
+                "08/10/1990",
+                "06/1972",
+                "1899",
+                "2017-12-17"
+            ],
+            "use": "Record in association with Location condition note to provide a history of the conditions in a location."
+        }
+    },
+    "location_security_note": {
+        "definition": "Information about the security of a specific Location.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Case lock broken."
+        ],
+        "use": "Record once only for any Location."
+    },
+    "environment_measurement_type": {
+        "definition": "The type of environment condition measured at a location.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "temperature",
+            "relative humidity",
+            "visible light",
+            "ultra-violet light"
+        ],
+        "use": "Record more than once for a location if more than one type of measurement is made."
+    },
+    "environment_measurement_value": {
+        "definition": "The numeric value of an environment measurement at a location.",
+        "how_to_record": "A number, without punctuation other than a decimal point where required.",
+        "examples": [
+            "987",
+            "0.234"
+        ],
+        "use": "Record as many times as many times a measurement is made.",
+        "environment_measurement_value_unit": {
+            "definition": "The unit of measurement used when measuring an aspect of a location\u2019s environment.",
+            "how_to_record": "Use a single term or code. Maintain a list of standard terms or codes.",
+            "examples": [
+                "C",
+                "%",
+                "Lux"
+            ],
+            "use": "Record once only for an Environment measurement value."
+        },
+        "environment_measurement_value_qualifier": {
+            "definition": "The measurement of accuracy used when measuring an aspect of a location\u2019s environment.",
+            "how_to_record": "Use a single term or code. Maintain a list of standard terms or codes.",
+            "examples": [
+                "+ or \u2013 150",
+                "approximate"
+            ],
+            "use": "Record once only for an Environment measurement value."
+        }
+    },
+    "environment_measurement_date": {
+        "definition": "The date on which an environment measurement took place at a location.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Record all four digits for the year.",
+        "examples": [
+            "23/10/2007",
+            "2011-12-17"
+        ],
+        "use": "Record once only for an Environment measurement value."
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "audit_reference_number": {
+        "definition": "A unique identifying number for the audit of an object or group of objects. It should serve as the reference to written documentation of an audit.",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number.",
+        "examples": [
+            "A1993.123"
+        ],
+        "use": "Record once only for an audit."
+    },
+    "audit_method": {
+        "definition": "The method used to audit an object or group of objects.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "full",
+            "random",
+            "selective"
+        ],
+        "use": "Record more than once for an object only if more than one method applies."
+    },
+    "audit_authoriser": {
+        "definition": "The Person giving final approval for an audit to take place.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Record once only for an audit.",
+        "audit_authorisation_date": {
+            "definition": "The date on which the Audit authoriser gives final approval for an audit to proceed.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "17/12/2017",
+                "2018-08-04"
+            ],
+            "use": "Record once only for an audit."
+        }
+    },
+    "audit_type": {
+        "definition": "The type of audit carried out on an object, group of objects, or information.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "condition",
+            "information",
+            "location"
+        ],
+        "use": "Record more than once for an object only if more than one type applies."
+    },
+    "auditor": {
+        "definition": "The Person or Organisation carrying out an audit. The Auditor is individually accountable for the Object audit result.",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, a surname and a forename. The descriptions for these information units are gathered together under the Person or Organisation headings as appropriate.",
+        "examples": [
+            "See under Person or Organisation as appropriate."
+        ],
+        "use": "Only record more than one auditor if an audit was carried out by and responsibility taken by more than one Person or Organisation."
+    }
+}

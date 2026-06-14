@@ -1,0 +1,35 @@
+{
+    "owners_personal_experience": {
+        "definition": "A description of how and why a particular object or group of objects is known to have been of particular importance to a previous owner.",
+        "how_to_record": "Use normal grammar and punctuation. May include: Reasons why the object was particularly relevant to their life; Reasons why the owner collected the object, or decided to sell, donate or bequeath it; A reminiscence of an event, situation or other memory prompted by the object.",
+        "examples": [
+            "Played with when was a child",
+            "Worn when arrived in the UK"
+        ],
+        "use": "Record once only for an owner\u2019s contribution."
+    },
+    "owners_personal_response": {
+        "definition": "A description of the way in which a previous owner responded intuitively to the object.",
+        "how_to_record": "Use normal grammar and punctuation. May include one or more different types of personal response, including: Feelings about an object beyond their personal experience of it; Why they \u2018connected\u2019 with an object, or regarded it as personally special; The broader cultural meaning which they attached to an object; Aspects of an object which they felt were of particular artistic, historical or cultural significance; Their response to it from the point of view of a different cultural standpoint or conjecture as to what the object might have meant to another individual connected with the object, such as the creator, user or another owner.",
+        "examples": [
+            "Represents the last remains of a \u2018forgotten world\u2019."
+        ],
+        "use": "Record once only for an owner\u2019s contribution."
+    },
+    "owners_reference": {
+        "definition": "Documentation of any additional reference to the object provided by a previous owner, eg an event, object, document, person or organisation.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Shown wearing it in a wedding photograph."
+        ],
+        "use": "Record as many times as required for an owner\u2019s contribution. If verified, this may be recorded by staff more fully."
+    },
+    "owners_contribution_note": {
+        "definition": "Any observations or comments on a previous owner\u2019s contributions which the organisation wishes to record, eg the way in which the information was obtained or any discrepancies noted.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Information taken from a taped interview."
+        ],
+        "use": "Record once only for an owner\u2019s contribution."
+    }
+}

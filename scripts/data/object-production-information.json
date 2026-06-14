@@ -1,0 +1,78 @@
+{
+    "object_production_date": {
+        "definition": "The date when a stage in the design, creation or manufacture of an object took place.",
+        "how_to_record": "It may be necessary to use more than one unit of information to describe this date, eg a range of dates or a textual expression of the date as well as the production stage which the date is related to. Descriptions of these units of information are gathered together under the Date heading. Use Date \u2013 period to record non-numeric dates and eras relating to an object\u2019s production.",
+        "examples": [
+            "As for Date."
+        ],
+        "use": "As many times as required for an object."
+    },
+    "object_production_note": {
+        "definition": "Additional information about an object\u2019s production.",
+        "how_to_record": "Use normal grammar and punctuation. Record information in the following areas: Detailed descriptions of techniques and processes used in the production, construction or decoration of an object, eg:",
+        "examples": [
+            "Biscuit fired to 1060C then painted with copper oxide and salt solution and gas-raku fired to 1050C. Cobalt oxide and salt in solution, dark patches added and refined in electric kiln."
+        ],
+        "use": "Record once only for an object."
+    },
+    "object_production_organisation": {
+        "definition": "An Organisation involved in the design, creation or manufacture of the object.",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, the nature of its involvement with the production process. The descriptions for these information units are gathered together under the Organisation heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Organisation."
+        ],
+        "use": "As many times as required for an object."
+    },
+    "object_production_people": {
+        "definition": "A People involved in the design, creation or manufacture of an object.",
+        "how_to_record": "It will be necessary to record several units of information, including, for example, a surname and a forename as well as the nature of their involvement with the production process. The descriptions for these information units are gathered together under the People heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under People."
+        ],
+        "use": "As many times as required for an object."
+    },
+    "object_production_person": {
+        "definition": "A Person involved in the design, creation or manufacture of an object. This may include the commissioner of an object.",
+        "how_to_record": "It will be necessary to record several units of information, including, for example, a surname and a forename as well as the nature of their involvement with the production process. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "As many times as required for an object."
+    },
+    "object_production_place": {
+        "definition": "A Place where the design, creation or manufacture of an object took place.",
+        "how_to_record": "It will be necessary to record several units of information, including for example, a village name or a country name, as well as the production stage with which the Place is associated. The descriptions for these information units are gathered together under the Place heading.",
+        "examples": [
+            "See under Place."
+        ],
+        "use": "As many times as required for an object."
+    },
+    "object_production_reason": {
+        "definition": "The reason why an object was produced.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "The table was commissioned for an exhibition of avant garde domestic furniture."
+        ],
+        "use": "As many times as required for an object."
+    },
+    "technique": {
+        "definition": "Processes, methods, techniques or tools used to fabricate or decorate an object.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "carved",
+            "painted",
+            "etched",
+            "pencil"
+        ],
+        "use": "As many times as required for an object.",
+        "technique_type": {
+            "definition": "A term describing the nature of the Technique.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "decoration",
+                "woodwork"
+            ],
+            "use": "As many times as required for a Technique."
+        }
+    }
+}

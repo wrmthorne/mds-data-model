@@ -1,0 +1,124 @@
+{
+    "use_reference_number": {
+        "definition": "The unique number assigned to the use of an object or group of objects. The number should also refer to a file containing all written documentation about the use.",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number.",
+        "examples": [
+            "RES1993.123",
+            "X1993.123"
+        ],
+        "use": "Record once only for a use."
+    },
+    "use_request_note": {
+        "definition": "Additional information about request for use.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Demonstrated at Bridlington Car Rally to mark 50th anniversary of its invention."
+        ],
+        "use": "As many times as required for a use event."
+    },
+    "use_type": {
+        "definition": "A term describing the nature of the use event.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "exhibition",
+            "examination",
+            "performance",
+            "demonstration"
+        ],
+        "use": "As many times as required for a use event."
+    },
+    "use_authoriser": {
+        "definition": "The Person giving final approval for a use to take place.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Record once only for a use event.",
+        "use_authorisation_date": {
+            "definition": "The date on which the Use authoriser gives final approval for a use to proceed.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "17/12/2017",
+                "2018-08-04"
+            ],
+            "use": "Record once only for a use."
+        }
+    },
+    "use_title": {
+        "definition": "The name of a use event (eg exhibition title).",
+        "how_to_record": "Use normal grammar and punctuation. Use capitalisation for proper names. If the working title of an exhibition changes, update the title as required.",
+        "examples": [
+            "The Art of Mexico",
+            "Dinosaurs!"
+        ],
+        "use": "Record once only for a use event."
+    },
+    "use_begin_date": {
+        "definition": "The date on which a use began.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year",
+        "examples": [
+            "17/12/2017",
+            "2018-08-04"
+        ],
+        "use": "Record once only for a use event."
+    },
+    "use_end_date": {
+        "definition": "The date on which a use ended.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year",
+        "examples": [
+            "17/12/2017",
+            "2018-08-04"
+        ],
+        "use": "Record once only for a use event."
+    },
+    "user": {
+        "definition": "The Person or Organisation researching, using, selecting or viewing an object or group of objects.",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, a surname and a forename. The descriptions for these information units are gathered together under the Person or Organisation heading as appropriate. You may have standard forms of names for use.",
+        "examples": [
+            "See under Person or Organisation."
+        ],
+        "use": "As many times as required for a use event.",
+        "users_contact": {
+            "definition": "The details of a Person designated by the User to be responsible for dealing with the use on their behalf.",
+            "how_to_record": "It will be necessary to use several units of information, including, for example, a surname and a forename. The descriptions for these information units are gathered together under the Person headings as appropriate. The organisation may have standard forms of names for use.",
+            "examples": [
+                "See under Person."
+            ],
+            "use": "Record once only for a User."
+        }
+    },
+    "use_organiser": {
+        "definition": "The Person or Organisation organising a use event (eg exhibition, display, and demonstration).",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, a surname, a forename and an address. The descriptions for these information units are gathered together under the Person or Organisation heading as appropriate. You may have standard forms of names for use.",
+        "examples": [
+            "See under Person or Organisation."
+        ],
+        "use": "As many times as required for a use event."
+    },
+    "use_venue": {
+        "definition": "The Place where a use takes place.",
+        "how_to_record": "It will be necessary to use several units of information, including, for example, an address. The descriptions for these units are gathered together under the Place heading.",
+        "examples": [
+            "See under Place."
+        ],
+        "use": "More than one Use venue can be recorded if a use (eg an exhibition) is touring."
+    },
+    "use_provisos": {
+        "definition": "Restrictions applying to the research or use of an object.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Manuscript not to be fully transcribed without Trustees permission."
+        ],
+        "use": "Record once only for each occurrence or research or use."
+    },
+    "use_result": {
+        "definition": "Information about the outcome of the use.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "dated",
+            "identified",
+            "exhibited"
+        ],
+        "use": "As many times as required for a use event."
+    }
+}

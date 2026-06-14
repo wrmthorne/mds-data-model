@@ -1,0 +1,120 @@
+{
+    "collections_review_reference_number": {
+        "definition": "\nThe unique number assigned to the record of a collections review.\n",
+        "how_to_record": "May include: a prefix to distinguish it from other reference numbers; the year; and a running number.",
+        "examples": [
+            "Review2017.1"
+        ],
+        "use": "Record once only for a collections review."
+    },
+    "collections_review_authoriser": {
+        "definition": "\nThe Person giving final approval for a collections review to take place.\n",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person heading. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person."
+        ],
+        "use": "Record once only for a collections review.",
+        "collections_review_authorisation_date": {
+            "definition": "\nThe date on which the Collections review authoriser gives final approval for a collections review to proceed.\n",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "17/12/2017",
+                "2018-08-04"
+            ],
+            "use": "Record once only for a collections review."
+        }
+    },
+    "collections_review_title": {
+        "definition": "\nThe name given to a collections review.\n",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Review of Roman coins 2017",
+            "Collections significance review 2018"
+        ],
+        "use": "Record once for a collections review carried out."
+    },
+    "collections_review_reason": {
+        "definition": "\nThe reason a collections review takes place.\n",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "store rationalisation",
+            "collection rationalisation",
+            "information improvement",
+            "condition survey"
+        ],
+        "use": "Record as many times are needed for a collections review."
+    },
+    "collections_review_type": {
+        "definition": "\nThe type of collections review being carried out.\n",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "condition",
+            "significance",
+            "rationalisation"
+        ],
+        "use": "Record more than once for a collections review only if more than one type applies."
+    },
+    "collections_review_method": {
+        "definition": "\nThe way in which the collections review is carried out.\n",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "sample",
+            "high level",
+            "group"
+        ],
+        "use": "Record once only for a collections review."
+    },
+    "collections_review_manager": {
+        "definition": "\nThe Person or Organisation responsible for carrying out the collections review.\n",
+        "how_to_record": "It may be necessary to use several unit of information including, for example, a surname, a forename and an address. The descriptions for these information units are gathered together under the Person or Organisation headings as appropriate.",
+        "examples": [
+            "See under Person or Organisation as appropriate."
+        ],
+        "use": "Record once only for a collections review."
+    },
+    "collections_review_note": {
+        "definition": "\nInformation about a collections review not recorded elsewhere.\n",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Discovered an additional storage location."
+        ],
+        "use": "Record once only for any collections review."
+    },
+    "collections_review_status": {
+        "definition": "\nThe status of the process of carrying out a collections review.\n",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "begun",
+            "phase 1 complete",
+            "ended"
+        ],
+        "use": "Record once only for a collections review.",
+        "collections_review_status_date": {
+            "definition": "\nThe date on which a Collections review status was recorded.\n",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate a component. Be as specific as possible and indicate if the date is not known. Always give all four digits for the year.",
+            "examples": [
+                "17/12/2017",
+                "2018-08-04"
+            ],
+            "use": "Record once only for a Collections review status."
+        }
+    },
+    "collections_review_begin_date": {
+        "definition": "\nThe date on which a collections review begins.\n",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+        "examples": [
+            "17/12/2017",
+            "2018-08-04"
+        ],
+        "use": "Record once only for a collections review."
+    },
+    "collections_review_end_date": {
+        "definition": "\nThe date on which a collections review ends.\n",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+        "examples": [
+            "17/12/2017",
+            "2018-08-04"
+        ],
+        "use": "Record once only for a collections review."
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "current_location": {
+        "definition": "The place within the organisation where an object is currently located.",
+        "how_to_record": "Use a single term or code. Maintain a list of standard terms or codes. Ensure that all locations can be specifically described with unique terms.",
+        "examples": [
+            "U.23.2.4a room 1, case 3, shelf 4"
+        ],
+        "use": "Record once for any object at any one time. Information about the Current location may be retained but it is only the single Current location which does not have a Removal date associated with it which is the \u2018active\u2019 Current location.",
+        "location_date": {
+            "definition": "The date an object was place at the Current location.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+            "examples": [
+                "08/10/1993",
+                "2017-12-17"
+            ],
+            "use": "Record once only for a Current location."
+        },
+        "current_location_fitness": {
+            "definition": "A term describing the extent to which an object\u2019s current location is fitted to an object\u2019s requirements.",
+            "how_to_record": "Use a single term or code, without punctuation. Maintain a list of standard terms or codes.",
+            "examples": [
+                "1",
+                "2",
+                "A",
+                "B",
+                "unsuitable",
+                "reasonable",
+                "dangerous"
+            ],
+            "use": "Record once only for an object."
+        },
+        "current_location_note": {
+            "definition": "Information about the reason for an object\u2019s being at its Current location.",
+            "how_to_record": "Use normal grammar and punctuation.",
+            "examples": [
+                "Located here pending completion of secure storage in Store 322."
+            ],
+            "use": "Record once only for an object."
+        }
+    },
+    "normal_location": {
+        "definition": "The place within the organisation where an object is normally located.",
+        "how_to_record": "Use a single term or code. Maintain a list of standard terms or codes. Ensure that all locations can be specifically described with unique terms.",
+        "examples": [
+            "U.23.2.4a room 1, case 3, shelf 4"
+        ],
+        "use": "Record once only for any object or uniquely numbered part of an object."
+    },
+    "previous_location": {
+        "definition": "A place where an object, or group of objects, were located before its Current location.",
+        "how_to_record": "Use a single term or code. Maintain a list of standard terms or codes. Ensure that all locations can be specifically described with unique terms.",
+        "examples": [
+            "U.23.2.4a room 1, case 3, shelf 4"
+        ],
+        "use": "Record as many times as required for an object or group of objects.",
+        "previous_location_begin_date": {
+            "definition": "The date at which an object, or group of objects, began a stay at a Previous location.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+            "examples": [
+                "17/12/2017",
+                "2018-08-04"
+            ],
+            "use": "Record once for a stay at a Previous location. It is possible that the same location was used at different times for the same object or group of objects."
+        },
+        "previous_location_end_date": {
+            "definition": "The date at which an object, or group of objects, ended a stay at a Previous location.",
+            "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Always give all four digits for the year.",
+            "examples": [
+                "17/12/2017",
+                "2018-08-04"
+            ],
+            "use": "Record once for a stay at a Previous location. It is possible that the same location was used at different times for the same object or group of objects."
+        }
+    }
+}

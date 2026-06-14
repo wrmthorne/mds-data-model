@@ -1,0 +1,44 @@
+{
+    "users_reference": {
+        "definition": "Documentation of any additional reference to the object provided by a user eg an event, object, document, person or organisation.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Used while working for a mining company."
+        ],
+        "use": "Record as many times as required for a user\u2019s contribution. If verified, this may be recorded by staff more fully."
+    },
+    "users_role": {
+        "definition": "The role of a user in relation to the object.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "user",
+            "researcher",
+            "visitor"
+        ],
+        "use": "As many times as required for a user\u2019s contribution."
+    },
+    "users_personal_experience": {
+        "definition": "A description of how and why a particular object or type of object is of particular importance to a user.",
+        "how_to_record": "Use normal grammar and punctuation. May include: Reasons why the object is particularly relevant to their life; Reminiscence of an event, situation or other memory prompted by the object.",
+        "examples": [
+            "Exactly like the object my grandfather used to own when I was a boy in the old country."
+        ],
+        "use": "Record once only for a viewer\u2019s contribution."
+    },
+    "users_personal_response": {
+        "definition": "A description of the way in which a user responded intuitively to the object.",
+        "how_to_record": "Use normal grammar and punctuation. May include: Their feelings about an object beyond their personal experience of it; Why they \u2018connected\u2019 with an object, or regarded it as personally special; The broader cultural meaning which the user attached to an object; Aspects of an object which they felt were of particular artistic, historical or cultural significance; Their response to it from the point of view of a different cultural standpoint or conjecture as to what the object might have meant to another individual connected with the object, such as the creator, user or owner.",
+        "examples": [
+            "An important example of African art."
+        ],
+        "use": "Record once only for a user\u2019s contribution."
+    },
+    "users_contribution_note": {
+        "definition": "Any observations or comments on a user\u2019s contributions which the organisation wishes to record, eg the way in which the information was obtained or any discrepancies noted.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "User attended the \u2018Coming to Britain\u2019 event."
+        ],
+        "use": "Record once only for a user\u2019s contribution."
+    }
+}

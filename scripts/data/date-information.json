@@ -1,0 +1,103 @@
+{
+    "date_association": {
+        "definition": "How a Date relates to an event in an object\u2019s history.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "carved",
+            "commissioned",
+            "decorated",
+            "designed",
+            "manufactured",
+            "sold",
+            "used",
+            "inscribed",
+            "painted",
+            "produced",
+            "collected"
+        ],
+        "use": "As many times as required for an Object production date or Associated event date."
+    },
+    "date_earliest_single": {
+        "definition": "The earliest probable or exact date at which an event in an object\u2019s history is thought to have occurred.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Record all four digits for the year.",
+        "examples": [
+            "08/10/1990",
+            "06/1972",
+            "1899",
+            "29.1.1994",
+            "2017-12-17"
+        ],
+        "use": "Record once only for each event in an object\u2019s history. If the exact date of an event is known, or if only one probable date is known, only record Date \u2013 earliest /single.",
+        "date_earliest_single_certainty": {
+            "definition": "A term describing the extent to which the Date \u2013 earliest/single recorded is thought to be correct.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms. If left blank, the assumption is that the Date \u2013 earliest/single recorded is thought to be correct.",
+            "examples": [
+                "probably",
+                "possibly",
+                "circa",
+                "before",
+                "after"
+            ],
+            "use": "Record once only for a Date \u2013 earliest/single if required."
+        },
+        "date_earliest_single_qualifier": {
+            "definition": "A qualification of the earliest probable or exact date at which an event in an object\u2019s history is thought to have occurred.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation, or the standard statistical notation. Maintain a list of standard terms.",
+            "examples": [
+                "+ or \u2013 150",
+                "approximate"
+            ],
+            "use": "Use for a Date \u2013 earliest/single as required"
+        }
+    },
+    "date_latest": {
+        "definition": "The latest probable date at which an event in an object\u2019s history is thought to have occurred.",
+        "how_to_record": "Always record the day, month and year in the same order. Always use the same character to separate each component. Be as specific as possible and indicate if the date is not known. Record all four digits for the year.",
+        "examples": [
+            "08/10/1990",
+            "06/1972",
+            "1899",
+            "2017-12-17"
+        ],
+        "use": "Record once only for a Date if required.",
+        "date_latest_certainty": {
+            "definition": "A term describing the extent to which the Date \u2013 latest recorded is thought to be correct.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms. If left blank, the assumption is that the Date \u2013 latest recorded is thought to be correct.",
+            "examples": [
+                "probably",
+                "possibly",
+                "circa",
+                "before",
+                "after"
+            ],
+            "use": "Record once only for a Date \u2013 latest if required."
+        },
+        "date_latest_qualifier": {
+            "definition": "A qualification of the latest probable date at which an event in the object\u2019s history is thought to have occurred.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation, or the standard statistical notation. Maintain a list of standard terms.",
+            "examples": [
+                "+ or \u2013 150",
+                "approximate"
+            ],
+            "use": "Use for a Date \u2013 latest as required"
+        }
+    },
+    "date_period": {
+        "definition": "A textual expression of the period when an event in an object\u2019s history is thought to have occurred.",
+        "how_to_record": "Use a single term. Maintain a list of standard terms, based on a recognised terminology source.",
+        "examples": [
+            "medieval",
+            "Ming",
+            "Bronze Age"
+        ],
+        "use": "Record once only for an event in an object\u2019s history."
+    },
+    "date_text": {
+        "definition": "The textual expression of the date or date span when an event in an object\u2019s history is thought to have occurred.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Late 19th century or early 20th century."
+        ],
+        "use": "Record once only for an event in an object\u2019s history."
+    }
+}

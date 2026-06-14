@@ -1,0 +1,191 @@
+{
+    "persons_reference_number": {
+        "definition": "A code identifying a Person associated with an object.",
+        "how_to_record": "Use a unique number or code uniquely identifying the Person. Maintain a list of standard numbers or codes.",
+        "examples": [
+            "FLG1992"
+        ],
+        "use": "Record once only for a Person."
+    },
+    "persons_forenames": {
+        "definition": "A Person\u2018s given name.",
+        "how_to_record": "Use the capitalisation and punctuation normally used by the Person. The organisation may have standard forms of name for use.",
+        "examples": [
+            "John",
+            "J. G.",
+            "Anne S."
+        ],
+        "use": "Record once only for a Person."
+    },
+    "persons_surname": {
+        "definition": "A Person\u2018s family name.",
+        "how_to_record": "Use the capitalisation and punctuation used by the Person. The organisation may have standard forms of name for use.",
+        "examples": [
+            "Jones",
+            "Degas"
+        ],
+        "use": "Record once only a Person. Cross references may be made between different forms of the Person\u2019s surname."
+    },
+    "persons_title": {
+        "definition": "The form of address used by a Person.",
+        "how_to_record": "Use the title by which a Person is normally addressed in letters. If the title is normally abbreviated in common use, use the abbreviated form. Otherwise, spell out the title in full. The organisation may have standard forms of address used for a Person.",
+        "examples": [
+            "Mr",
+            "Ms",
+            "Sir",
+            "Reverend",
+            "Doctor"
+        ],
+        "use": "Record once only for a Person."
+    },
+    "persons_additions_to_name": {
+        "definition": "Terms of honour used when the Person is referred to in relation to their position or work.",
+        "how_to_record": "The formal form of reference preferred by a person or which is commonly used in reference sources. The information may include expressions denoting royal status, phrases consisting of the person\u2019s title and name of their state or people or professional qualifications. The organisation may have standard forms of reference.",
+        "examples": [
+            "Elizabeth I, Queen of England",
+            "DFC",
+            "BA",
+            "Equerry to George III"
+        ],
+        "use": "As many times as required for a Person."
+    },
+    "persons_initials": {
+        "definition": "The initial letters of the Person\u2019s forenames and Person\u2019s surnames.",
+        "how_to_record": "Record using capital letters.",
+        "examples": [
+            "J G",
+            "ASY"
+        ],
+        "use": "Record once only for a Person."
+    },
+    "persons_salutation": {
+        "definition": "The form of greeting used in correspondence.",
+        "how_to_record": "Use the form as it should appear at the beginning of a letter or other correspondence. The organisation may have standard forms of salutation.",
+        "examples": [
+            "Dear Jeff",
+            "Dear Lady Jean"
+        ],
+        "use": "Record once only for a Person."
+    },
+    "persons_address": {
+        "definition": "The address where a Person can be contacted.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a building name, street name and town/city. The descriptions for these information units are gathered together under the Address heading.",
+        "examples": [
+            "See under Address."
+        ],
+        "use": "As many times as required for a Person."
+    },
+    "persons_birth_date": {
+        "definition": "The date on which a Person was born.",
+        "how_to_record": "It may be necessary to use more than one unit of information to describe this date, eg a range of dates or a textual expression of the date as well as the means by which the date was established. Descriptions of these units of information are gathered together under the Date heading. Use Date \u2013 period to record non-numeric dates and eras relating to the Person\u2018s birth.",
+        "examples": [
+            "As for Date."
+        ],
+        "use": "Record once only for a Person."
+    },
+    "persons_place_of_birth": {
+        "definition": "The Place where a Person was born.",
+        "how_to_record": "It may be necessary to use several units of information, including, for example, village or a country. The descriptions for these information units are gathered together under the Place heading.",
+        "examples": [
+            "See under Place."
+        ],
+        "use": "Record once only for a Person."
+    },
+    "persons_death_date": {
+        "definition": "The date on which a Person died.",
+        "how_to_record": "It may be necessary to use more than one unit of information to describe this date, eg a range of dates or a textual expression of the date as well as the means by which the date was established. Descriptions of these units of information are gathered together under the Date heading. Use Date \u2013 period to record non-numeric dates and eras relating to the Person\u2018s death.",
+        "examples": [
+            "As for Date."
+        ],
+        "use": "Record once only for a Person."
+    },
+    "persons_place_of_death": {
+        "definition": "The Place where a Person died.",
+        "how_to_record": "It may be necessary to use several units of information, including, for example, village or a country. The descriptions for these information units are gathered together under the Place heading.",
+        "examples": [
+            "See under Place."
+        ],
+        "use": "Record once only for a Person."
+    },
+    "persons_biographical_note": {
+        "definition": "Information about the personal history of a Person.",
+        "how_to_record": "Use normal grammar and punctuation. Describe school and any further education, employment history, current post or professional history. Use also to indicate when the Person worked. Do not put here information which is specific to an object \u2013 this should go in an object-related field, such as Production note or Object history. Include information about any employment in an organisation if an employee.",
+        "examples": [
+            "Educated at Burston Village School, Suffolk. She was a carpentry apprentice and worked for 23 years at Wood\u2019s furniture makers, Bures."
+        ],
+        "use": "Record once only for a Person."
+    },
+    "persons_gender": {
+        "definition": "The sex of a Person.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "female",
+            "male"
+        ],
+        "use": "Record once only for a Person."
+    },
+    "persons_association": {
+        "definition": "The way in which a Person is associated with a particular object.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "designer",
+            "painter",
+            "depicted in",
+            "criticised in",
+            "engraver",
+            "moneyer"
+        ],
+        "use": "As many times as required for an object."
+    },
+    "persons_group": {
+        "definition": "The group (social, ethnic, cultural, faith, gender orientation) to which a Person belongs or which he/she identifies him/herself.",
+        "how_to_record": "Use a single term. Maintain a list of standard terms, based on a recognised terminology source.",
+        "examples": [
+            "Belgic",
+            "Wessex culture",
+            "Romanesque",
+            "Anglian",
+            "Clactonian",
+            "Pre Raphaelite"
+        ],
+        "use": "Use one or more times as required for each organisation."
+    },
+    "persons_name_notes": {
+        "definition": "A note primarily for documentation purposes to explain why the particular form of name was chosen; notes to distinguish this Person from others with the same name.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "This spelling was used as the maker prefers the archaic form of the forename."
+        ],
+        "use": "Record once only for a Person."
+    },
+    "persons_nationality": {
+        "definition": "A Person\u2018s official current nationality.",
+        "how_to_record": "Do not use punctuation. Maintain a list of standard terms.",
+        "examples": [
+            "British",
+            "Turkish"
+        ],
+        "use": "Record once only for a Person."
+    },
+    "persons_occupation": {
+        "definition": "The occupation or employment of a Person.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "chief cashier",
+            "curator",
+            "museum director",
+            "farmer"
+        ],
+        "use": "As many times as required for a Person."
+    },
+    "persons_school_style": {
+        "definition": "The primary styles in which the Person worked.",
+        "how_to_record": "Use a single term, without punctuation, only using capitalisation for proper names. Maintain a list of standard terms.",
+        "examples": [
+            "impressionist",
+            "neo-classical",
+            "surrealist"
+        ],
+        "use": "As many times as required for a Person."
+    }
+}

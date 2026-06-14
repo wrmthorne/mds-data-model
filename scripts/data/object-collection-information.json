@@ -1,0 +1,165 @@
+{
+    "field_collection_event_reference_number": {
+        "definition": "The unique number assigned to a field collection event. The number should also refer to a file containing written documentation about the event.",
+        "how_to_record": "Record as found.",
+        "examples": [
+            "Watching Brief No.242",
+            "Project 123"
+        ],
+        "use": "The same Field collection event reference number can be used for one or more objects."
+    },
+    "field_collection_number": {
+        "definition": "A number or code assigned to an object collected in the field before an Entry number or Object number is assigned.",
+        "how_to_record": "Record precisely as assigned by field collector or excavator, using the same punctuation and capitalisation.",
+        "examples": [
+            "F345"
+        ],
+        "use": "Record once only for an object or group of objects."
+    },
+    "field_collection_date": {
+        "definition": "The date an object is collected in the field.",
+        "how_to_record": "It may be necessary to use more than one unit of information to describe this date, eg a range of dates or a textual expression of the date. Descriptions of these units of information are gathered together under the Date heading.",
+        "examples": [
+            "As for Date."
+        ],
+        "use": "Record once for an object where required."
+    },
+    "field_collection_event_name": {
+        "definition": "The name of an event at which an object was collected.",
+        "how_to_record": "Use a single term, using punctuation only where it forms a part of the event name and capitalisation for proper names. Maintain a list of standard terms.",
+        "examples": [
+            "Mission Dakar \u2013 Djibouti",
+            "East Rudolf 1973"
+        ],
+        "use": "Record more than once only if more than field collection event applies."
+    },
+    "field_collection_method": {
+        "definition": "The method used to excavate or collect an object in the field.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "netted",
+            "shot",
+            "trapped",
+            "salvaged",
+            "found dead",
+            "photographed",
+            "metal detector",
+            "borehole",
+            "purchased",
+            "commissioned",
+            "exchanged"
+        ],
+        "use": "Record more than once for an object only if more than one method applies."
+    },
+    "field_collection_note": {
+        "definition": "Additional information about the place or method of field collection or excavation.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Site very wet following flooding."
+        ],
+        "use": "Record once only for an object."
+    },
+    "field_collection_place": {
+        "definition": "The place where an object was excavated or collected in the field.",
+        "how_to_record": "It may be necessary to record several units of information, including for example, a context, town or country. The descriptions for these information units are gathered together under the Place heading.",
+        "examples": [
+            "As for Place."
+        ],
+        "use": "Record once only for an object where required."
+    },
+    "field_collection_source": {
+        "definition": "The social, socio-professional, or ethnic groups from which an object was collected or bought. May be different from the group of production and/or the group use.",
+        "how_to_record": "It will be necessary to record several units of information, including for example, for a Person, a surname and a forename. The descriptions for these information units are gathered together under the People, Person or Organisation headings as appropriate. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under People, Person or Organisation."
+        ],
+        "use": "Record once only for an object."
+    },
+    "field_collector": {
+        "definition": "The Person or Organisation responsible for collecting a specimen or object in the field.",
+        "how_to_record": "It will be necessary to use several units of information, including for example, a surname and a forename. The descriptions for these information units are gathered together under the Person or Organisation headings as appropriate. The organisation may have standard forms of names for use.",
+        "examples": [
+            "See under Person or Organisation."
+        ],
+        "use": "As many times as required for an object or specimen."
+    },
+    "geological_complex_name": {
+        "definition": "The name of a geological complex from which a geological specimen was collected.",
+        "how_to_record": "Use a single term, using punctuation only where it forms a part of the name and capitalisation for proper names. Maintain a list of standard terms.",
+        "examples": [
+            "Central ring complex",
+            "Dartmoor Granite"
+        ],
+        "use": "As many times as required for an object."
+    },
+    "habitat": {
+        "definition": "A term describing the surroundings and environment of the area where a specimen was collected in the field.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "dune",
+            "salt marsh",
+            "freshwater lake"
+        ],
+        "use": "As many times as required for an object."
+    },
+    "habitat_note": {
+        "definition": "Additional information about the habitat of an object which has not been recorded elsewhere using controlled terminology.",
+        "how_to_record": "Use normal grammar and punctuation.",
+        "examples": [
+            "Dune facing north subject to high tides."
+        ],
+        "use": "Record once only for a Habitat."
+    },
+    "stratigraphic_unit_name": {
+        "definition": "The stratigraphic unit from which a field collection was made.",
+        "how_to_record": "Use a single term. Maintain a list of standard terms, based on a recognised terminology source.",
+        "examples": [
+            "lower Jurassic",
+            "bathonian",
+            "Devonian"
+        ],
+        "use": "May only be recorded more than once for an object or group of objects if it is associated with a different Stratigraphic unit type."
+    },
+    "stratigraphic_unit_type": {
+        "definition": "The nature of the Stratigraphic unit name from which a field collection was made.",
+        "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+        "examples": [
+            "biostratigraphic",
+            "lithostratigraphic",
+            "chronostratigraphic",
+            "era",
+            "stage",
+            "system formation",
+            "bed",
+            "zone",
+            "host rock type",
+            "age"
+        ],
+        "use": "As many times as required for a Stratigraphic unit name.",
+        "stratigraphic_unit_type": {
+            "definition": "The nature of the Stratigraphic unit name from which a field collection was made.",
+            "how_to_record": "Use a single term, without punctuation or capitalisation. Maintain a list of standard terms.",
+            "examples": [
+                "biostratigraphic",
+                "lithostratigraphic",
+                "chronostratigraphic",
+                "era",
+                "stage",
+                "system formation",
+                "bed",
+                "zone",
+                "host rock type",
+                "age"
+            ],
+            "use": "As many times as required for a Stratigraphic unit name."
+        },
+        "stratigraphic_unit_note": {
+            "definition": "Additional information about a Stratigraphic unit name.",
+            "how_to_record": "Use normal grammar and punctuation.",
+            "examples": [
+                "Formerly an estuarine series."
+            ],
+            "use": "Record once only for a Stratigraphic unit name."
+        }
+    }
+}
