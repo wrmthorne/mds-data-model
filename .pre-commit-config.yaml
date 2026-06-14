@@ -1,0 +1,40 @@
+repos:
+#- repo: https://github.com/astral-sh/ruff-pre-commit
+#  rev: v0.15.16
+#  hooks:
+#    # Run the linter.
+#    - id: ruff-check
+#      args: [ --fix ]
+#    # Run the formatter.
+#    - id: ruff-format
+
+- repo: https://github.com/astral-sh/uv-pre-commit
+  rev: 0.11.19
+  hooks:
+    - id: uv-lock
+
+- repo: local
+  hooks:
+#    - id: pyrefly
+#      name: pyrefly
+#      entry: uv run pyrefly check
+#      language: system
+#      types: [python]
+#      pass_filenames: false
+#      require_serial: true
+
+    - id: pytest
+      name: pytest
+      entry: uv run pytest
+      language: system
+      types: [python]
+      pass_filenames: false
+      require_serial: true
+
+    - id: schema
+      name: schema
+      entry: uv run scripts/generate_json_schema.py
+      language: system
+      types: [python]
+      pass_filenames: false
+      require_serial: true
