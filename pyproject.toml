@@ -11,6 +11,48 @@ dependencies = [
     "pydantic[email]>=2.13.4",
 ]
 
+[tool.ruff]
+exclude = [
+    "dist",
+    ".pytest_cache",
+    ".ruff_cache",
+    ".venv",
+    "__pycache__",
+    ".git"
+]
+
+line-length = 119
+indent-width = 4
+
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle errors
+    "W",    # pycodestyle warnings
+    "F",    # Pyflakes
+    "I",    # isort (import sorting)
+    "N",    # pep8-naming
+    "UP",   # pyupgrade (modern syntax for your py312 target)
+    "B",    # flake8-bugbear (likely bugs)
+    "SIM",  # flake8-simplify
+    "C4",   # flake8-comprehensions
+    "RUF",  # Ruff-specific rules
+]
+ignore = []
+
+fixable = ["ALL"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[tool.pyrefly]
+project-includes = ["src"]
+python-version = "3.12"
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 
@@ -22,6 +64,8 @@ build-backend = "uv_build"
 dev = [
     "httpx>=0.28.1",
     "lxml>=6.1.1",
+    "pyrefly>=1.0.0",
     "pytest>=9.1.0",
+    "ruff>=0.15.17",
     "tenacity>=9.1.4",
 ]

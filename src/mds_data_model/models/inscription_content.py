@@ -37,7 +37,7 @@ class InscriptionContent(MDSModel):
         description="The script used in a textual inscription on an object.",
     )
     inscription_translation: list[str] | str | None = Field(None,
-        description="A translation into the organisation’s first language of a textual inscription on an object.",
+        description="A translation into the organisation's first language of a textual inscription on an object.",
     )
     inscription_transliteration: list[str] | str | None = Field(None,
         description="The transliteration of a textual inscription on an object.",

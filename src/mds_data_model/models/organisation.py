@@ -3,13 +3,14 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 from pydantic import Field
+
 from .common import MDSModel
 
 if TYPE_CHECKING:
     from .address import Address
-    from .person import Person
     from .common import ControlledVocabField
     from .date import Date, DateStringISO
+    from .person import Person
     from .place import Place
 
 

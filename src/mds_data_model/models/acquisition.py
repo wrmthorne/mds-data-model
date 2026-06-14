@@ -16,11 +16,11 @@ class Acquisition(MDSModel):
         description="A unique identifying number for information on the acquisition of an object or group of objects. "
             "It should serve as the reference to written documentation of a valuation. This will normally be the "
             "object number.",
-        examples=["1993.123"]
+        examples=["1993.123"],
     )
     accession_date: Date | DateStringISO | None = Field(None,
         description="The date on which an object formally enters the collections and is recorded in the accessions "
-            "register.",
+        "register.",
     )
     acquisition_authoriser: list[AcquisitionAuthoriser | str] | AcquisitionAuthoriser | str | None = Field(None,
         description="The Person giving final approval for the acquisition to proceed.",

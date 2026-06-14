@@ -55,8 +55,8 @@ class EnvironmentMeasurementValue(MDSModel):
     value: float | int | None = None
 
     environment_measurement_value_unit: Annotated[str | None, ControlledVocab] = Field(None,
-        description="The unit of measurement used when measuring an aspect of a location’s environment.",
+        description="The unit of measurement used when measuring an aspect of a location's environment.",
     )
     environment_measurement_value_qualifier: Annotated[str | None, ControlledVocab] = Field(None,
-        description="The measurement of accuracy used when measuring an aspect of a location’s environment.",
+        description="The measurement of accuracy used when measuring an aspect of a location's environment.",
     )

@@ -28,7 +28,7 @@ class Dimension(MDSModel):
 
 class DimensionValue(MDSModel):
     value: float | int
-    
+
     dimension_value_date: Date | DateStringISO | None = Field(None,
         description="The date on which the Dimension value was recorded.",
     )

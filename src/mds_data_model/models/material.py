@@ -4,8 +4,8 @@ from typing import Annotated
 
 from pydantic import Field
 
-from .place import Place
 from .common import ControlledVocab, ControlledVocabField, MDSModel
+from .place import Place
 
 
 class Material(MDSModel):

@@ -4,7 +4,8 @@ from typing import Annotated
 
 from pydantic import Field, PositiveInt
 
-from .acquisition import AcquisitionFundingSource, AcquisitionAuthoriser, OriginalObjectPurchasePrice
+from .acquisition import AcquisitionAuthoriser, AcquisitionFundingSource, OriginalObjectPurchasePrice
+from .common import ControlledVocab, ControlledVocabField, MDSModel
 from .date import Date, DateStringISO
 from .dimension import Dimension
 from .inscription_content import InscriptionContent
@@ -17,7 +18,6 @@ from .person import Person
 from .place import Place
 from .reference import Reference
 from .technique import Technique
-from .common import ControlledVocab, ControlledVocabField, MDSModel
 
 
 class Object(MDSModel):
@@ -82,7 +82,7 @@ class Object(MDSModel):
         description="A date associated with an object or group of objects.",
     )
     associated_event_date: list[Date | DateStringISO] | Date | DateStringISO | None = Field(None,
-        description="The date of an event in an object’s history.",
+        description="The date of an event in an object's history.",
     )
     associated_event_name: list[AssociatedEventName | str] | AssociatedEventName | str | None = Field(None,
         description="An historical event associated with an object or group of objects, not including production and "
@@ -90,19 +90,19 @@ class Object(MDSModel):
             "association.",
     )
     associated_event_organisation: list[Organisation | str] | Organisation | str | None = Field(None,
-        description="An Organisation associated with an event in an object’s or group of objects’ history (other "
+        description="An Organisation associated with an event in an object's or group of objects' history (other "
             "than field collection or ownership).",
     )
     associated_event_people: list[People | str] | People | str | None = Field(None,
-        description="A people associated with an event in an object’s or group of objects’ history (other than field "
+        description="A people associated with an event in an object's or group of objects' history (other than field "
             "collection or ownership).",
     )
     associated_event_person: list[Person | str] | Person | str | None = Field(None,
-        description="A person associated with an event in an object’s or group of objects’ history (other than field "
+        description="A person associated with an event in an object's or group of objects' history (other than field "
             "collection or ownership).",
     )
     associated_event_place: list[Place | str] | Place | str | None = Field(None,
-        description="A place associated with an event in an object’s history.",
+        description="A place associated with an event in an object's history.",
     )
     associated_object: ControlledVocabField = Field(None,
         description="An object associated with an object or group of objects.",
@@ -111,13 +111,13 @@ class Object(MDSModel):
         description="A term describing the nature of the Associated object.",
     )
     associated_organisation: list[Organisation | str] | Organisation | str | None = Field(None,
-        description="An Organisation associated with an object’s or group of objects’ history.",
+        description="An Organisation associated with an object's or group of objects' history.",
     )
     associated_people: list[People | str] | People | str | None = Field(None,
-        description="A people associated with an object’s or group of objects’ history.",
+        description="A people associated with an object's or group of objects' history.",
     )
     associated_person: list[Person | str] | Person | str | None = Field(None,
-        description="A person associated with an object’s or group of objects’ history.",
+        description="A person associated with an object's or group of objects' history.",
     )
     associated_place: list[Place | str] | Place | str | None = Field(None,
         description="A place associated with an object or group of objects.",
@@ -203,7 +203,7 @@ class Object(MDSModel):
     content_description: list[str] | str | None = Field(None,
         description="A general description of a depiction in an object, or description of an object without making "
             "interpretation. This may include descriptions of the content of all audio and visual works. Use Brief "
-            "description and Physical description to describe an object’s other features.",
+            "description and Physical description to describe an object's other features.",
     )
     content_event_name: list[ContentEventName | str] | ContentEventName | str | None = Field(None,
         description="An event depicted on or described by an object.",
@@ -212,14 +212,14 @@ class Object(MDSModel):
         description="The language of the textual content of an object.",
     )
     content_note: list[str] | str | None = Field(None,
-        description="Additional information about an object’s content which has not been recorded elsewhere using "
+        description="Additional information about an object's content which has not been recorded elsewhere using "
             "controlled terminology.",
     )
     content_object: list[ContentObject | str] | ContentObject | str | None = Field(None,
         description="An object depicted in or described by another object.",
     )
     content_object_type: ControlledVocabField = Field(None,
-        description="A term describing the nature of the Content – object.",
+        description="A term describing the nature of the Content - object.",
     )
     content_organisation: list[Organisation | str] | Organisation | str | None = Field(None,
         description="The Organisation depicted in or described in an object.",
@@ -229,7 +229,7 @@ class Object(MDSModel):
             "content units.",
     )
     content_other_type: ControlledVocabField = Field(None,
-        description="The type of aspect being recorded by Content – other.", # FIXME: Was already nested in Spectrum docs
+        description="The type of aspect being recorded by Content - other.", # FIXME: Already nested in Spectrum docs
     )
     content_people: list[People | str] | People | str | None = Field(None,
         description="A People depicted in or described by an object.",
@@ -416,7 +416,7 @@ class Object(MDSModel):
         description="The date when a stage in the design, creation or manufacture of an object took place.",
     )
     object_production_note: list[str] | str | None = Field(None,
-        description="Additional information about an object’s production.",
+        description="Additional information about an object's production.",
     )
     object_production_organisation: list[Organisation | str] | Organisation | str | None = Field(None,
         description="An Organisation involved in the design, creation or manufacture of the object.",
@@ -470,12 +470,12 @@ class Object(MDSModel):
         description="A textual expression of the age or developmental phase of a natural science specimen.",
     )
     physical_description: list[str] | str | None = Field(None,
-        description="Use normal grammar and punctuation. Include a description of an object’s completeness if "
+        description="Use normal grammar and punctuation. Include a description of an object's completeness if "
             "appropriate (eg lacks left arm). Comment on condition only as it affects completeness. Describe items "
             "which would be made using an object, eg clothing from paper patterns. The frame and mount should also be "
             "described if appropriate. The following issues might be addressed: What shape or form does it take? "
-            "Describe an object in reference to the direction the work faces (ie a sculpture’s right side (proper "
-            "right) not as the viewer). Do not use ‘sinister’ or ‘dexter’. Where and how is it decorated? How is it "
+            "Describe an object in reference to the direction the work faces (ie a sculpture's right side (proper "
+            "right) not as the viewer). Do not use ‘sinister' or ‘dexter'. Where and how is it decorated? How is it "
             "mounted? How is it constructed? What colours have been used? What scale is used?",
     )
     recall_date: list[Date | DateStringISO] | Date | DateStringISO | None = Field(None,
@@ -573,7 +573,7 @@ class Object(MDSModel):
     )
     use_note: list[str] | str | None = Field(None,
         description="Additional information about the use which has not been recorded elsewhere using controlled "
-            "terminology. This could include an object’s operations log.",
+            "terminology. This could include an object's operations log.",
     )
     use_organiser: list[Organisation | Person | str] | Organisation | Person | str | None = Field(None,
         description="The Person or Organisation organising a use event (eg exhibition, display, and demonstration).",
@@ -601,7 +601,8 @@ class Object(MDSModel):
         description="The Place where a use takes place.",
     )
     user: list[User | str] | User | str | None = Field(None,
-        description="The Person or Organisation researching, using, selecting or viewing an object or group of objects.",
+        description="The Person or Organisation researching, using, selecting or viewing an object or group of "
+            "objects.",
     )
     users_reference: list[Reference | str] | Reference | str | None = Field(None,
         description="Documentation of any additional reference to the object provided by a user eg an event, object, "
@@ -652,7 +653,8 @@ class ConservationAuthoriser(Person):
     value: str | None = None
 
     conservation_authorisation_date: list[Date | DateStringISO] | Date | DateStringISO | None = Field(None,
-        description="The date on which the Conservation authoriser gives final approval for an acquisition to proceed.",
+        description="The date on which the Conservation authoriser gives final approval for an acquisition to "
+            "proceed.",
     )
 
 
@@ -660,7 +662,7 @@ class ContentEventName(MDSModel):
     value: Annotated[str | None, ControlledVocab] = None
 
     content_event_name_type: ControlledVocabField = Field(None,
-        description="A term describing the nature of the Content – event name.",
+        description="A term describing the nature of the Content - event name.",
     )
 
 
@@ -668,7 +670,7 @@ class ContentObject(MDSModel):
     value: Annotated[str | None, ControlledVocab] = None
 
     content_object_type: list[str] | str | None = Field(None,
-        description="A term describing the nature of the Content – object.",
+        description="A term describing the nature of the Content - object.",
     )
 
 
@@ -676,7 +678,7 @@ class ContentOther(MDSModel):
     value: str | None = None
 
     content_other_type: list[str] | str | None = Field(None,
-        description="The type of aspect being recorded by Content – other.",
+        description="The type of aspect being recorded by Content - other.",
     )
 
 
@@ -687,11 +689,11 @@ class CurrentLocation(Location):
         description="The date an object was place at the Current location.",
     )
     current_location_fitness: ControlledVocabField = Field(None,
-        description="A term describing the extent to which an object’s current location is fitted to an object’s "
+        description="A term describing the extent to which an object's current location is fitted to an object's "
             "requirements.",
     )
     current_location_note: list[str] | str | None = Field(None,
-        description="Information about the reason for an object’s being at its Current location.",
+        description="Information about the reason for an object's being at its Current location.",
     )
 
 
@@ -741,8 +743,8 @@ class ObjectName(MDSModel):
     object_name_type: ControlledVocabField = Field(None,
         description="The type of Object name recorded.",
     )
-    object_name_title_language: ControlledVocabField = Field(None,
-        description="The language for an Object name, Other name or Title given to an object.", # FIXME: Why is this property named the same as for object_name?
+    object_name_title_language: ControlledVocabField = Field(None, # FIXME: Property named the same as for object_name?
+        description="The language for an Object name, Other name or Title given to an object.",
     )
 
 
@@ -814,12 +816,12 @@ class Text(MDSModel):
 
 class Title(MDSModel):
     value: str | None = None
-
+    # FIXME: Property named the same as for object_name?
     object_name_title_language: Annotated[str | None, ControlledVocab] = Field(None,
-        description="The language for an Object name, Other name or Title given to an object.", # FIXME: Why is this property named the same as for object_name?
+        description="The language for an Object name, Other name or Title given to an object.",
     )
     title_translation: list[str] | str | None = Field(None,
-        description="A translation into the organisation’s first language of a Title as recorded.",
+        description="A translation into the organisation's first language of a Title as recorded.",
     )
     title_type: ControlledVocabField = Field(None,
         description="The nature of the Title recorded.",

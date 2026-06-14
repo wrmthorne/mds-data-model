@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from functools import lru_cache
+from functools import cache
 from typing import get_args
 
 from pydantic import BaseModel
@@ -22,7 +22,7 @@ def _annotation_contains(annotation: object, target: type) -> bool:
     return any(_annotation_contains(arg, target) for arg in get_args(annotation))
 
 
-@lru_cache(maxsize=None)
+@cache
 def fields_of_type(model: type[BaseModel], target: type) -> tuple[str, ...]:
     """Names of ``model`` fields whose declared type includes ``target``.
 

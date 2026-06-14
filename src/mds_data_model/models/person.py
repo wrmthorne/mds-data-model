@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 from pydantic import Field
+
 from .common import MDSModel
 
 if TYPE_CHECKING:
@@ -19,10 +20,10 @@ class Person(MDSModel):
         description="A code identifying a Person associated with an object.",
     )
     persons_forenames: list[str] | str | None = Field(None,
-        description="A Person‘s given name.",
+        description="A Person's given name.",
     )
     persons_surname: list[str] | str | None = Field(None,
-        description="A Person‘s family name.",
+        description="A Person's family name.",
     )
     persons_title: list[str] | str | None = Field(None,
         description="The form of address used by a Person.",
@@ -69,7 +70,7 @@ class Person(MDSModel):
             "chosen; notes to distinguish this Person from others with the same name.",
     )
     persons_nationality: ControlledVocabField = Field(None,
-        description="A Person‘s official current nationality.",
+        description="A Person's official current nationality.",
     )
     persons_occupation: ControlledVocabField = Field(None,
         description="The occupation or employment of a Person.",

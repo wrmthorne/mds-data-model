@@ -17,7 +17,7 @@ class Reference(MDSModel):
         description="The number assigned to an object in an exhibition catalogue.",
     )
     document_location: list[Location | str] | Location | str | None = Field(None, # FIXME: controlled
-        description="Where a referenced document is stored in an organisation’s documentation system.",
+        description="Where a referenced document is stored in an organisation's documentation system.",
     )
     reference_author_editor: list[Organisation | Person | str] | Organisation | Person | str | None = Field(None,
         description="The Person or Organisation responsible for the intellectual content of a referenced work.",
