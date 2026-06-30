@@ -49,17 +49,29 @@ _MODULES = (
 )
 
 
+def all_models() -> tuple[type[BaseModel], ...]:
+    """Every concrete MDS model class across the package, de-duplicated in order."""
+    models: list[type[BaseModel]] = []
+    for module in _MODULES:
+        for name in dir(module):
+            obj = getattr(module, name)
+            if (
+                isinstance(obj, type)
+                and issubclass(obj, BaseModel)
+                and obj not in (BaseModel, MDSModel)
+            ):
+                models.append(obj)
+    return tuple(dict.fromkeys(models))  # de-duplicate, preserve order
+
+
 def _resolve_forward_references() -> None:
     """Collect every model class plus shared aliases and rebuild against them."""
     namespace: dict[str, object] = {}
-    models: list[type[BaseModel]] = []
     for module in _MODULES:
         for name in dir(module):
             obj = getattr(module, name)
             if isinstance(obj, type) and issubclass(obj, BaseModel):
                 namespace[name] = obj
-                if obj not in (BaseModel, MDSModel):
-                    models.append(obj)
 
     # Type aliases / annotation markers that appear in field annotations but are
     # not models, so they must be resolvable without being rebuilt themselves.
@@ -67,7 +79,7 @@ def _resolve_forward_references() -> None:
     namespace["ControlledVocabField"] = common.ControlledVocabField
     namespace["ControlledVocab"] = common.ControlledVocab
 
-    for model in dict.fromkeys(models):  # de-duplicate, preserve order
+    for model in all_models():
         # _types_namespace supplies the cross-module names that each model's
         # own module namespace is missing.
         model.model_rebuild(_types_namespace=namespace)
