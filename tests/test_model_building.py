@@ -4,7 +4,7 @@ import importlib
 import pkgutil
 
 import pytest
-from pydantic import BaseModel
+from pydantic import BaseModel, ValidationError
 
 import mds_data_model.models as models_pkg
 from mds_data_model.models.address import Address
@@ -75,7 +75,7 @@ def test_missing_required_fields_raise() -> None:
 
 def test_address_uses_email_validator() -> None:
     """Address.address_email is an EmailStr, requiring the email-validator extra."""
-    with pytest.raises(Exception):
+    with pytest.raises(ValidationError):
         Address.model_validate({"spectrum/address_email": "not-an-email"})
     ok = Address.model_validate({"spectrum/address_email": "a@b.com"})
     assert str(ok.address_email) == "a@b.com"

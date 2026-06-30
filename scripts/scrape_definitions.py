@@ -1,18 +1,15 @@
 import argparse
 import json
-from pathlib import Path
 import re
+from pathlib import Path
 
 import httpx
 import lxml.html as html
-from tenacity import retry, wait_exponential, stop_after_attempt, retry_if_exception
-
+from tenacity import retry, retry_if_exception, stop_after_attempt, wait_exponential
 
 BASE_URL = "https://collectionstrust.org.uk"
 INDEX_URL = "https://collectionstrust.org.uk/spectrum/information-requirements/procedural-information-groups/"
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (research-scraper; spectrum-docs)"
-}
+HEADERS = {"User-Agent": "Mozilla/5.0 (research-scraper; spectrum-docs)"}
 
 client = httpx.Client(timeout=30, follow_redirects=True, headers=HEADERS)
 
@@ -37,32 +34,29 @@ def fetch(url: str) -> html.HtmlElement:
 def parse_unit_information(root):
     definition = root.xpath("//div[@id='unit-definition']")
     if definition:
-        if (_definition := definition[0].xpath("/p")):
+        if _definition := definition[0].xpath("/p"):
             definition = _definition
         definition = definition[0].text_content().strip()
     else:
         definition = ""
 
-    if use := root.xpath("//div[@id='unit-use']/p"):
-        use = use[0].text_content().strip()
-    else:
-        use = ""
+    use = use[0].text_content().strip() if (use := root.xpath("//div[@id='unit-use']/p")) else ""
 
-    return{
+    return {
         "definition": definition,
         "how_to_record": root.xpath("//div[@id='unit-recording']/p")[0].text_content().strip(),
         "examples": [e.strip() for e in root.xpath("//div[@id='unit-examples']/p")[0].text_content().split("; ")],
-        "use": use
+        "use": use,
     }
 
 
 def parse_li(li: html.HtmlElement, depth: int = 0) -> dict:
     anchor = (li.xpath("em/a") or li.xpath("a") or li.xpath("ul/li/em/a"))[0]
     name = anchor.text_content().lower().strip()
-    name = re.sub(r'[^\w\s/]', '', name)
+    name = re.sub(r"[^\w\s/]", "", name)
     name = re.sub(r"\s+|/", "_", name)
     unit_info = parse_unit_information(fetch(BASE_URL + anchor.get("href")))
-    print(" "*(depth+1)*4 + f"Complete: {name}")
+    print(" " * (depth + 1) * 4 + f"Complete: {name}")
     for child_li in li.xpath("ul/li"):
         unit_info.update(parse_li(child_li, depth + 1))
     return {name: unit_info}

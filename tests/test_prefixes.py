@@ -9,9 +9,7 @@ from mds_data_model.models.object import Object
 
 
 def test_spectrum_prefix_is_the_default() -> None:
-    address = Address.model_validate(
-        {"spectrum/value": "home", "spectrum/address_postcode": "S1 1AA"}
-    )
+    address = Address.model_validate({"spectrum/value": "home", "spectrum/address_postcode": "S1 1AA"})
     dumped = address.model_dump(by_alias=True, exclude_none=True)
     assert dumped == {"spectrum/value": "home", "spectrum/address_postcode": "S1 1AA"}
 
@@ -68,4 +66,3 @@ def test_populate_by_name_round_trip() -> None:
     assert from_dict.object_name == "vase"
     # Dumping without by_alias yields the Python field names.
     assert set(from_dict.model_dump(exclude_none=True)) >= {"object_name", "object_number", "license"}
-    

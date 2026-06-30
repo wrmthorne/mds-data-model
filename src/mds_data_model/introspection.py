@@ -31,11 +31,7 @@ def fields_of_type(model: type[BaseModel], target: type) -> tuple[str, ...]:
     per ``(model, target)`` pair: it is computed once on first call and returned in O(1) thereafter, so it is safe to
     call repeatedly. The returned tuple is immutable to keep the cached value from being mutated by callers.
     """
-    return tuple(
-        name
-        for name, field in model.model_fields.items()
-        if _annotation_contains(field.annotation, target)
-    )
+    return tuple(name for name, field in model.model_fields.items() if _annotation_contains(field.annotation, target))
 
 
 def date_fields(model: type[BaseModel] = Object) -> tuple[str, ...]:
@@ -61,10 +57,12 @@ def fields_with_metadata(model: type[BaseModel], target: type) -> tuple[str, ...
 def vocab_fields(model: type[BaseModel] = Object) -> tuple[str, ...]:
     """Names of fields backed by a controlled vocabulary.
 
-    Covers both ``ControlledVocabField`` and any field carrying a bare :class:`ControlledVocab` annotation, since the
-    alias is itself just ``Annotated[..., ControlledVocab]``.
+    Finds the :class:`ControlledVocab` marker whether it sits at the top of the annotation (where Pydantic lifts it
+    into ``field.metadata``) or nested inside a container such as ``OneOrMany[ControlledTerm]`` (where it stays within
+    the annotation). Returned in declaration order as an immutable tuple.
     """
-    return fields_with_metadata(model, ControlledVocab)
+    marked = set(fields_with_metadata(model, ControlledVocab)) | set(fields_of_type(model, ControlledVocab))
+    return tuple(name for name in model.model_fields if name in marked)
 
 
 def all_vocab_fields() -> dict[type[BaseModel], tuple[str, ...]]:
@@ -74,10 +72,4 @@ def all_vocab_fields() -> dict[type[BaseModel], tuple[str, ...]]:
     fields are omitted. Flatten to a single set of names with ``{n for names in all_vocab_fields().values() for n in
     names}`` if the owning model does not matter.
     """
-    return {
-        model: fields
-        for model in all_models()
-        if (fields := vocab_fields(model))
-    }
-
-
+    return {model: fields for model in all_models() if (fields := vocab_fields(model))}

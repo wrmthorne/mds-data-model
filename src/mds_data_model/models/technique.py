@@ -1,15 +1,14 @@
 from __future__ import annotations
 
-from typing import Annotated
-
 from pydantic import Field
 
-from .common import ControlledVocab, ControlledVocabField, MDSModel
+from .common import ControlledTerm, MDSModel, OneOrMany
 
 
 class Technique(MDSModel):
-    value: Annotated[str | None, ControlledVocab] = None
+    value: ControlledTerm | None = None
 
-    technique_type: ControlledVocabField = Field(None,
+    technique_type: OneOrMany[ControlledTerm] = Field(
+        None,
         description="A term describing the nature of the Technique.",
     )

@@ -17,9 +17,7 @@ def test_committed_schema_exists() -> None:
 
 def test_committed_schema_is_up_to_date() -> None:
     expected = dumps(build_object_schema())
-    assert SCHEMA_PATH.read_text(encoding="utf-8") == expected, (
-        f"Committed schema is stale; {REGENERATE_HINT}"
-    )
+    assert SCHEMA_PATH.read_text(encoding="utf-8") == expected, f"Committed schema is stale; {REGENERATE_HINT}"
 
 
 def test_schema_uses_prefixed_property_names() -> None:

@@ -55,11 +55,7 @@ def all_models() -> tuple[type[BaseModel], ...]:
     for module in _MODULES:
         for name in dir(module):
             obj = getattr(module, name)
-            if (
-                isinstance(obj, type)
-                and issubclass(obj, BaseModel)
-                and obj not in (BaseModel, MDSModel)
-            ):
+            if isinstance(obj, type) and issubclass(obj, BaseModel) and obj not in (BaseModel, MDSModel):
                 models.append(obj)
     return tuple(dict.fromkeys(models))  # de-duplicate, preserve order
 
@@ -76,7 +72,8 @@ def _resolve_forward_references() -> None:
     # Type aliases / annotation markers that appear in field annotations but are
     # not models, so they must be resolvable without being rebuilt themselves.
     namespace["DateStringISO"] = date.DateStringISO
-    namespace["ControlledVocabField"] = common.ControlledVocabField
+    namespace["OneOrMany"] = common.OneOrMany
+    namespace["ControlledTerm"] = common.ControlledTerm
     namespace["ControlledVocab"] = common.ControlledVocab
 
     for model in all_models():

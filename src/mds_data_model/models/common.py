@@ -19,4 +19,17 @@ class ControlledVocab:
     """
 
 
-ControlledVocabField = Annotated[list[str] | str | None, ControlledVocab]
+type OneOrMany[T] = list[T] | T | None
+"""A field accepting one or many values of ``T``, or nothing.
+
+For entities that may also be given as a string reference, include ``str`` in ``T``
+(e.g. ``OneOrMany[Title | str]``).
+"""
+
+
+ControlledTerm = Annotated[str, ControlledVocab]
+"""A single controlled-vocabulary term: a ``str`` carrying the :class:`ControlledVocab` marker.
+
+Wrap in :data:`OneOrMany` for fields that accept one or many terms (``OneOrMany[ControlledTerm]``),
+or union with ``None`` for a single optional term (``ControlledTerm | None``).
+"""
